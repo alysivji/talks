@@ -113,13 +113,13 @@ pyspark
 3. Make file executable
 
 ```console
-chmod +x start_ipython35_notebook.sh
+chmod +x start_jupyter_py35_notebook.sh
 ```
 
 4. Run Jupyter Notebook
 
 ```console
-./start_ipython35_notebook.sh
+./start_jupyter_py35_notebook.sh
 ```
 
 ## Starting Jupyter Notebook and Spark instance
