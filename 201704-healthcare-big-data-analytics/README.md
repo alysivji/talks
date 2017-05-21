@@ -126,6 +126,5 @@ chmod +x start_jupyter_py35_notebook.sh
 
 ```console
 ssh root@127.0.0.1 -p 2222
-root / hortondoop
 ./start_jupyter_py35_notebook.sh
 ```
