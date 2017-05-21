@@ -125,6 +125,6 @@ chmod +x start_jupyter_py35_notebook.sh
 ## Starting Jupyter Notebook and Spark instance
 
 ```console
-ssh root@127.0.0.1 -p 2222
-./start_jupyter_py35_notebook.sh
+$ ssh root@127.0.0.1 -p 2222
+$ ./start_jupyter_py35_notebook.sh
 ```
