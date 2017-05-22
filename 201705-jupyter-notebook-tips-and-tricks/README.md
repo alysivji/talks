@@ -29,6 +29,8 @@ Use Jupyter notebook widgets to make exploratory data analysis interactive! [Doc
 
 * [Altair Widgets](https://github.com/altair-viz/altair_widgets)
 * [Interactive PivotTables in Jupyter](http://nicolas.kruchten.com/content/2015/09/jupyter_pivottablejs/)
+* [jupyter/nbdime](https://github.com/jupyter/nbdime), a tool to allow easy git diff'ing of Jupyter Notebooks. It can be used
+  as the default tool by git, and shows a nice diff in the browser.
 
 ## Jupyter + Spark (Hortonworks Sandbox)
 
