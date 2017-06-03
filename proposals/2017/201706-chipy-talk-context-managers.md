@@ -2,12 +2,9 @@
 A Gentle Introduction to Context Managers
 
 ## Description
-For those of us who are coming into Python from another language, we 
 
-Most of us have used with statements and context managers provided by the Python Standard Library to read and write to files. But have you ever wondered what is going on 
-
-to manage resources, but how many of 
-
-managing resources and not even thought about what we are doing. This talk will explore context managers in a bit more depth by 
+We've all used context managers provided by the Python Standard Library to read from/write to a file. Have you ever wondered what was happening underneath the hood when you used a with statement? This talk will explore context managers, discuss various use cases, and show you how to implement a context manager to manage MongoDB connections.
 
 ## Slides link (optional)
+
+https://docs.google.com/presentation/d/132FtjP6MgIojYeymUO2gc2wpShNv_zuQVi4LsWFQmKA/edit?usp=sharing
