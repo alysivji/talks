@@ -6,7 +6,7 @@ Intermediate
 
 ## Brief Description
 
-Jupyter notebooks make it easy to create reproducible workflows that can be distributed across groups and organizations. This is a simple process provided that our end-users have access to the data along with a compatible Python environment. Learn how to use Docker to package a shareable image containing the libraries, code, and data required to reproduce every calculation.
+Jupyter notebooks make it easy to create reproducible workflows that can be distributed across groups and organizations. This is a simple process provided our end-users have access to the data along with a compatible Python environment. Learn how to use Docker to package a shareable image containing the libraries, code, and data required to reproduce every calculation.
 
 ## Detailed Abstract
 
@@ -20,7 +20,7 @@ Learn how to leverage the power of Docker without having to worry about the unde
 
 [Github of my talks](https://github.com/alysivji/talks). Alright, you got me. Just talk. Only 1 so far, but this is changing! I jumped into Python last December and I continue to give it everything I have. I love the community. It has changed my life and empowered me as a developer. Now, I want to give back to the community and help those who were where I used to be.
 
-I was invited to speak at the Chicago Value-based Healthcare Technology meetup on the topic of how the Hadoop ecosystem can be used to drive innovation in healthcare analytics. I also co-led an open session at PyCon 2017 related to Jupyter notebook tricks and tips. As an active participant in the community, I am only looking forward to what the future is going to bring for our industry and am excited to be a part of it.
+I was invited to speak at the Chicago Value-based Healthcare Technology meetup on how the Hadoop ecosystem can be used to drive innovation in healthcare analytics. I also co-led an open session at PyCon 2017 related to Jupyter notebook tricks and tips. As an active participant in the community, I am only looking forward to what the future is going to bring for our industry and am excited to be a part of it.
 
 ## Notes
 
@@ -42,4 +42,3 @@ give the option...
 
 ## ipython notebook best pratices for data science
 https://www.youtube.com/watch?v=JI1HWUAyJHE
-
