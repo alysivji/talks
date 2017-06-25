@@ -20,7 +20,7 @@ Animation from [Wikipedia](https://en.wikipedia.org/wiki/Knight%27s_tour):
 
 ---
 
-## Things with Know
+## Things We Know
 
 * Chess boards are 8x8
 * Knights move in L shape:

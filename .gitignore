@@ -1,2 +1,3 @@
-.vscode
+.vscode/
+.ipynb_checkpoints/
 notes.py
