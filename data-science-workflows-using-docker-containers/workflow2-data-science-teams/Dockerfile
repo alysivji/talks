@@ -1,4 +1,5 @@
 # Use latest miniconda image as parent
+# miniconda is python + conda installer
 FROM continuumio/miniconda3
 
 # Meta-data

@@ -1,3 +1,4 @@
 .vscode/
 .ipynb_checkpoints/
 notes.py
+.envrc

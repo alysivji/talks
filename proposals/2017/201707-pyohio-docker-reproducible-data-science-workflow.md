@@ -21,24 +21,3 @@ Learn how to leverage the power of Docker without having to worry about the unde
 [Github of my talks](https://github.com/alysivji/talks). Alright, you got me. Just talk. Only 1 so far, but this is changing! I jumped into Python last December and I continue to give it everything I have. I love the community. It has changed my life and empowered me as a developer. Now, I want to give back to the community and help those who were where I used to be.
 
 I was invited to speak at the Chicago Value-based Healthcare Technology meetup on how the Hadoop ecosystem can be used to drive innovation in healthcare analytics. I also co-led an open session at PyCon 2017 related to Jupyter notebook tricks and tips. As an active participant in the community, I am only looking forward to what the future is going to bring for our industry and am excited to be a part of it.
-
-## Notes
-
-https://www.slideshare.net/CalvinGiles/using-docker-for-data-science?next_slideshow=1
-https://www.slideshare.net/CalvinGiles/using-docker-for-data-science-part-2
-https://www.civisanalytics.com/blog/strata-2016-docker-data-scientists/
-
-## Getting code inside docker
-
-http://blog.cloud66.com/how-to-get-code-into-a-docker-container/
-
-https://forums.docker.com/t/best-practices-for-getting-code-into-a-container-git-clone-vs-copy-vs-data-container/4077/4
-
-workflow
-download code and data into folder
-then download dockerfile file
-and then copy it in or set up a volume
-give the option...
-
-## ipython notebook best pratices for data science
-https://www.youtube.com/watch?v=JI1HWUAyJHE
