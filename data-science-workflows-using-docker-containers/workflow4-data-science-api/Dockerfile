@@ -20,7 +20,8 @@ RUN pip --no-cache-dir install -r /app/requirements.txt
 # Make port available to the world outside this container
 EXPOSE 5000
 
-# ENTRYPOINT allows us to specify the default executible. CMD sets default 
-# arguments to that executable which may be overwritten when using docker run
+# ENTRYPOINT allows us to specify the default executible
 ENTRYPOINT ["python"]
+
+# CMD sets default arguments to executable which may be overwritten when using docker run
 CMD ["app.py"]

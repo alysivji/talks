@@ -24,7 +24,8 @@ EXPOSE 8050
 # Create mountpoint
 VOLUME /app/data
 
-# ENTRYPOINT allows us to specify the default executible. CMD sets default 
-# arguments to that executable which may be overwritten when using docker run
+# ENTRYPOINT allows us to specify the default executible
 ENTRYPOINT ["python"]
+
+# CMD sets default arguments to executable which may be overwritten when using docker run
 CMD ["plot_timeseries.py"]

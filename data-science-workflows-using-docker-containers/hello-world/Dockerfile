@@ -1,4 +1,4 @@
-# EACH COMMAND CREATES A NEW IMAGE
+# EACH COMMAND CREATES A NEW IMAGE LAYER
 
 # Use latest Python runtime as base image
 FROM python:3.6.2-alpine3.6
