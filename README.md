@@ -9,4 +9,4 @@ Repo for all my talks (slides and code)
 * [June 25](https://github.com/alysivji/talks/tree/master/201706-knights-tour) - Knight's Tour Problem (Meetup study group)
 * [July 30](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers) - Data Science Workflows Using Docker Containers @ [PyOhio](https://pyohio.org/schedule/presentation/303/)
 * [September 16](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers) - Data Science Workflows Using Docker Containers @ [Denver Data Science Day](http://denverdatascienceday.com/)
-
+* [October 13](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers) - Data Science Workflows Using Docker Containers @ [ChiPy](https://www.meetup.com/_ChiPy_/events/243214965/)
