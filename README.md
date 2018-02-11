@@ -5,7 +5,8 @@ Repo for all my talks (slides and code)
 
 | Date | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
-|Jan 11|I Am Open Source (And So Can You!)|[ChiPy](https://www.meetup.com/_ChiPy_/events/245973026/)|[Slides](http://bit.ly/i-am-open-source)|
+|Feb 10|I Am Open Source (And So Can You!)|[PyTennessee](https://www.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/i-am-open-source)|
+|Jan 11|I Am Open Source (And So Can You!)|[ChiPy](https://www.meetup.com/_ChiPy_/events/245973026/)|[Slides](http://bit.ly/i-am-open-source) / [Video](https://www.youtube.com/watch?v=UPEGoW8KyuI&t)|
 
 ## 2017
 
