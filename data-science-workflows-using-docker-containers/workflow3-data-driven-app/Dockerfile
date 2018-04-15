@@ -1,5 +1,5 @@
 # Use latest Python runtime as a parent image
-FROM python:3.6.3-alpine3.6
+FROM python:3.6.5-alpine3.7
 
 # Meta-data
 LABEL maintainer="Aly Sivji <alysivji@gmail.com>" \
