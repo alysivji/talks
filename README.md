@@ -5,7 +5,9 @@ Repo for all my talks (slides and code)
 
 | Date | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
-|May 10|Docker for Data Science|[PyCon](https://us.pycon.org/2018/schedule/presentation/44/) Tutorial | - |
+|May 10|[Docker for Data Science](https://github.com/docker-for-data-science/docker-for-data-science-tutorial)|[PyCon](https://us.pycon.org/2018/schedule/presentation/44/) Tutorial |[Slides](http://bit.ly/docker-for-data-pycon) / [Video](https://www.youtube.com/watch?v=jbb1dbFaovg)|
+|May 7|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[PyData Chicago](https://www.meetup.com/PyDataChi/events/249791552/)|[Slides](http://bit.ly/docker-for-data-science)
+|May 1|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[Geekfest](https://www.meetup.com/Geekfest/events/250069583/)|[Slides](http://bit.ly/docker-for-data-science)
 |Feb 10|I Am Open Source (And So Can You!)|[PyTennessee](https://www.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/i-am-open-source)|
 |Jan 11|I Am Open Source (And So Can You!)|[ChiPy](https://www.meetup.com/_ChiPy_/events/245973026/)|[Slides](http://bit.ly/i-am-open-source) / [Video](https://www.youtube.com/watch?v=UPEGoW8KyuI&t)|
 
