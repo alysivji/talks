@@ -1,6 +1,6 @@
 ## Title
 
-Sealing Mocks in Python 3.7
+Python 3.7 Below the Fold: `mock.seal`
 
 ## Length
 
@@ -12,7 +12,7 @@ Intermediate
 
 ## Description
 
-`unittest.mock` provides a flexible implementation of mock objects we can use when writing isolated unit tests. In this lightning talk, we will explore the new `seal()` function that was added in Python 3.7
+`unittest.mock` provides a flexible implementation of mock objects we can use to write isolated unit tests. In this lightning talk, we will explore the new `mock.seal()` function that was added in Python 3.7.
 
 ## Slides link (optional)
 
