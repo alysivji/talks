@@ -5,6 +5,7 @@ Repo for all my talks (slides and code)
 
 | Date | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
+|Aug 9|Interactive Introspection with `ls`|[ChiPy](https://www.meetup.com/_ChiPy_/events/253543347/)|[Slides](http://bit.ly/python-ls)|
 |Jul 28|[Lock Your Mock](https://github.com/alysivji/talks/tree/master/lightning-talks)|[PyOhio](https://www.pyohio.org/) ⚡ Talk|[Notebook](https://github.com/alysivji/talks/blob/master/lightning-talks/python-37-below-the-fold--mock-seal.ipynb)|
 |Jul 12|[Python 3.7 Below the Fold: `mock.seal`](https://github.com/alysivji/talks/tree/master/lightning-talks)|[ChiPy](https://www.meetup.com/_ChiPy_/events/251903970/)|[Notebook](https://github.com/alysivji/talks/blob/master/lightning-talks/python-37-below-the-fold--mock-seal.ipynb)|
 |Jul 10|[The Art of Developer Testing](https://github.com/alysivji/talks/tree/master/art-of-developer-testing)|[IndyPy](https://www.meetup.com/indypy/events/248715476/)|[Slides](http://bit.ly/art-of-developer-testing)|
