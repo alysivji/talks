@@ -1,6 +1,4 @@
-## Title
-
-Interactive Introspection with `ls`
+# Interactive Introspection with `ls`
 
 ## Length
 

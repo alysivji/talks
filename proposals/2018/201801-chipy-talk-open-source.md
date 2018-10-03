@@ -1,6 +1,4 @@
-## Title
-
-I Am Open Source (And So Can You!)
+# I Am Open Source (And So Can You!)
 
 ## Length
 

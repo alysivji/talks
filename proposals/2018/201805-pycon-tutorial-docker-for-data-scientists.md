@@ -1,12 +1,8 @@
-# PyCon Tutorial Proposal
+# Docker for Data Science
 
 (based on [PyCon Tutorial submission form](https://us.pycon.org/2018/proposals/submit/tutorial/))
 
 [Detailed Tutorial Information](https://us.pycon.org/2018/speaking/tutorials/)
-
-## Title
-
-Docker for Data Science
 
 ## Description
 

@@ -1,6 +1,4 @@
-## Title
-
-Python 3.7 Below the Fold: `mock.seal`
+# Python 3.7 Below the Fold: `mock.seal`
 
 ## Length
 

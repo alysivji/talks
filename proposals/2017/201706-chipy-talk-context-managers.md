@@ -1,5 +1,4 @@
-## Title
-A Gentle Introduction to Context Managers
+# A Gentle Introduction to Context Managers
 
 ## Description
 

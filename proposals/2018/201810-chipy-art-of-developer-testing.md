@@ -1,6 +1,4 @@
-## Title
-
-The Art of Developer Testing
+# The Art of Developer Testing
 
 ## Length
 
