@@ -49,7 +49,7 @@ def save_to_db(url: str, top_word: Tuple[str, int]) -> None:
 # Routes
 @app.route("/health-check")
 def health_check():
-    return jsonify({"health": "check"})
+    return jsonify({"health": "✅"})
 
 
 @app.route("/top-word", methods=["POST"])
