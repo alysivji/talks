@@ -33,7 +33,7 @@ class TopWord(db.Model):
 
 
 # helper methods
-def save_to_db(url: str, top_word: Tuple[str, int]) -> None:
+def save_to_db(url: str, top_word: Tuple[str, int]):
     record = TopWord()
     record.url = url
     record.word = top_word[0]

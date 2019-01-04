@@ -1,14 +1,18 @@
 # Talks
+
 Repo for all my talks (slides and code)
 
 ## 2018
 
 | Date | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
+|Dec 11|[Community First: An Overview of the Python Ecosystem](https://github.com/alysivji/talks/tree/master/python-101)|[Chicago Veteran Developers](https://www.meetup.com/Chicago-Veteran-Developers/events/256242307/)|[Slides](http://bit.ly/python-ecosystem-overview)|
+|Nov 11|Interactive Introspection with `ls`|[PyCon Canada](https://2018.pycon.ca/) ⚡ Talk|[Slides](http://bit.ly/python-ls)|
+|Oct 25|[Testing from the Ground Up](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[ChiPy WebDev SIG](https://www.meetup.com/_ChiPy_/events/254890457/)|[Slides](http://bit.ly/testing-from-the-ground-up)|
 |Aug 9|Interactive Introspection with `ls`|[ChiPy](https://www.meetup.com/_ChiPy_/events/253543347/)|[Slides](http://bit.ly/python-ls) / [Video](https://www.youtube.com/watch?v=sCChedxFCuo)|
 |Jul 28|[Lock Your Mock](https://github.com/alysivji/talks/tree/master/lightning-talks)|[PyOhio](https://www.pyohio.org/) ⚡ Talk|[Notebook](https://github.com/alysivji/talks/blob/master/lightning-talks/python-37-below-the-fold--mock-seal.ipynb)|
 |Jul 12|[Python 3.7 Below the Fold: `mock.seal`](https://github.com/alysivji/talks/tree/master/lightning-talks)|[ChiPy](https://www.meetup.com/_ChiPy_/events/251903970/)|[Notebook](https://github.com/alysivji/talks/blob/master/lightning-talks/python-37-below-the-fold--mock-seal.ipynb)|
-|Jul 10|[The Art of Developer Testing](https://github.com/alysivji/talks/tree/master/art-of-developer-testing)|[IndyPy](https://www.meetup.com/indypy/events/248715476/)|[Slides](http://bit.ly/art-of-developer-testing)|
+|Jul 10|[The Art of Developer Testing](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[IndyPy](https://www.meetup.com/indypy/events/248715476/)|[Slides](http://bit.ly/art-of-developer-testing)|
 |May 10|[Docker for Data Science](https://github.com/docker-for-data-science/docker-for-data-science-tutorial)|[PyCon](https://us.pycon.org/2018/schedule/presentation/44/) Tutorial |[Slides](http://bit.ly/docker-for-data-pycon) / [Video](https://www.youtube.com/watch?v=jbb1dbFaovg)|
 |May 7|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[PyData Chicago](https://www.meetup.com/PyDataChi/events/249791552/)|[Slides](http://bit.ly/docker-for-data-science)
 |May 1|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[Geekfest](https://www.meetup.com/Geekfest/events/250069583/)|[Slides](http://bit.ly/docker-for-data-science)
