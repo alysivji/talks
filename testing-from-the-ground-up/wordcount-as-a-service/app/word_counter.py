@@ -8,15 +8,17 @@ import requests
 _HEADERS = {"User-Agent": "Word Counter"}
 
 
+def process_page_and_get_top_word(url: str) -> Tuple[str, int]:
+    html = download_webpage(url)
+    text = extract_text(html)
+    top_word = find_top_word(text)
+    return top_word
+
+
 def download_webpage(url):
     r = requests.get(url, headers=_HEADERS)
     if r.status_code == HTTPStatus.OK:
         return r.text
-
-    try:
-        r.raise_for_status()
-    except requests.HTTPError:
-        return ""  # TODO need to think about how to handle HTTP errors
 
 
 def extract_text(html_to_process: str) -> List[str]:
@@ -38,10 +40,3 @@ def find_top_word(words: List[str]) -> Tuple[str, int]:
     """Return top word and number of occurrences"""
     word_counter = Counter(words)
     return word_counter.most_common(1)[0]
-
-
-def process_page_and_get_top_word(url: str) -> Tuple[str, int]:
-    html = download_webpage(url)
-    text = extract_text(html)
-    top_word = find_top_word(text)
-    return top_word

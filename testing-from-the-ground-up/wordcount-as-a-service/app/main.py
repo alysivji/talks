@@ -55,7 +55,7 @@ def health_check():
 @app.route("/top-word", methods=["POST"])
 def webpage_top_word():
     url = request.json["url"]
-    top_word = process_page_and_get_top_word(url)
+    top_word = process_page_and_get_top_word(url)  # business logic
     record = save_to_db(url, top_word)
     return jsonify(
         {
