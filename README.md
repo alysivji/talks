@@ -2,6 +2,18 @@
 
 Repo for all my talks (slides and code)
 
+## 2019
+
+| Date | Topic | Location | Links |
+| :--: | :---- | :------- | :---: |
+|Apr 14|[Testing from the Ground Up](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[PyTexas](https://www.pytexas.org/2019)|[Slides](http://bit.ly/testing-from-the-ground-up)|
+|Apr 13|[Busy-Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/alysivji/busy-beaver)|[PyTexas](https://www.pytexas.org/2019) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
+|Apr 3|If Statements are a Code smell|[ChiPy WebDev SIG](https://www.meetup.com/_ChiPy_/events/259748547/)|[Slides](http://bit.ly/code-smell-if-statements)|
+|Mar 28|[Busy-Beaver: Idea to Execution](https://github.com/alysivji/busy-beaver)|[ChiPy Lunch Break SIG](https://www.meetup.com/_ChiPy_/events/dzxcvqyzfblc/)|[Slides](http://bit.ly/bb-idea-to-execution)|
+|Feb 23|[Busy-Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/alysivji/busy-beaver)|[PyCascades](https://2019.pycascades.com) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
+|Feb 9|[Busy-Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/alysivji/busy-beaver)|[PyTennessee](https://www.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
+|Jan 10|[Busy-Beaver: Increasing Community Engagement with Python](https://github.com/alysivji/busy-beaver)|[ChiPy](https://www.meetup.com/_ChiPy_/events/257467417/)|[Slides](http://bit.ly/busy-beaver)|
+
 ## 2018
 
 | Date | Topic | Location | Links |
