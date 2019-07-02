@@ -108,4 +108,5 @@ ENV/
 
 # folder-specific
 notes.py
+notes.md
 proposals/drafts
