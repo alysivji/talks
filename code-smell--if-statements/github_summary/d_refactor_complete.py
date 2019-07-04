@@ -10,10 +10,10 @@ class GitHubEvents:
     def __init__(self, username):
         events = get_github_events(username)
         self.username = username
-        self.event_types = self._classify_events(events)
+        self.event_types = self.classify_events(events)
 
     @staticmethod
-    def _classify_events(events):
+    def classify_events(events):
         event_types = [Commits(), Stars(), PullRequests()]
         for event in events:
             for event_type in event_types:
@@ -24,13 +24,17 @@ class GitHubEvents:
     def generate_summary_text(self):
         text = f"<@{self.username}> summary\n"
         for event_type in self.event_types:
-            text += event_type.generate_summary_text()
+            if len(event_type) > 0:
+                text += event_type.generate_summary_text()
         return text
 
 
 class EventList:
     def __init__(self):
         self.events = []
+
+    def __len__(self):
+        return len(self.events)
 
     def append(self, item):
         self.events.append(item)

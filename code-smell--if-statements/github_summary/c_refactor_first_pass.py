@@ -12,7 +12,8 @@ def perform(github_username):
 
     text = f"<@{github_username}> summary\n"
     for event_type in event_types:
-        text += event_type.generate_summary_text()
+        if len(event_type):
+            text += event_type.generate_summary_text()
 
     return text
 
@@ -20,6 +21,9 @@ def perform(github_username):
 class EventList:
     def __init__(self):
         self.events = []
+
+    def __len__(self):
+        return len(self.events)
 
     def append(self, item):
         self.events.append(item)
