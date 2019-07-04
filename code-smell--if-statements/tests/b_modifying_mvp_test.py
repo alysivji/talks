@@ -140,5 +140,5 @@ def test_generate_summary_for_pull_requests_opened():
 
     assert "arrow_heading_up" in output_text
     assert "2 PR(s)" in output_text
-    assert "alysivji/repo1" in output_text
-    assert "alysivji/repo2" in output_text
+    assert "alysivji/repo1#123" in output_text
+    assert "alysivji/repo2#123" in output_text

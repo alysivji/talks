@@ -80,3 +80,24 @@ class PullRequestsOpened(EventList):
             for event in self.events
         ]
         return f">:arrow_heading_up: {len(prs_made)} PR(s): {', '.join(prs_made)}\n"
+
+
+class IssuesOpened(EventList):
+    @staticmethod
+    def check(event):
+        return (
+            True
+            if event["type"] == "IssuesEvent"
+            and event.get("payload", {}).get("action") == "opened"
+            else False
+        )
+
+    def generate_summary_text(self):
+        issues_opened = [
+            f'{event["repo"]["name"]}#{event["payload"]["issue"]["number"]}'
+            for event in self.events
+        ]
+        return (
+            f">:interrobang: {len(issues_opened)} "
+            f"issue(s): {', '.join(issues_opened)}\n"
+        )
