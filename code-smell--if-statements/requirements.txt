@@ -1,0 +1,4 @@
+pytest-cov
+pytest-vcr
+pytest==5.0.0
+requests
