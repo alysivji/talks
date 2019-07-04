@@ -54,13 +54,13 @@ def test_classify_events():
 
     # Act
     commit_events = Commits()
-    num_commit_events = sum([commit_events.check(event) for event in events])
+    num_commit_events = sum([commit_events.matches_event(event) for event in events])
 
     star_events = Stars()
-    num_stars = sum([star_events.check(event) for event in events])
+    num_stars = sum([star_events.matches_event(event) for event in events])
 
     pr_events = PullRequestsOpened()
-    num_prs = sum([pr_events.check(event) for event in events])
+    num_prs = sum([pr_events.matches_event(event) for event in events])
 
     # Assert
     assert num_commit_events == 2
@@ -75,13 +75,13 @@ def test_extract_events_of_interest_no_events():
 
     # Act
     commit_events = Commits()
-    num_commit_events = sum([commit_events.check(event) for event in events])
+    num_commit_events = sum([commit_events.matches_event(event) for event in events])
 
     star_events = Stars()
-    num_stars = sum([star_events.check(event) for event in events])
+    num_stars = sum([star_events.matches_event(event) for event in events])
 
     pr_events = PullRequestsOpened()
-    num_prs = sum([pr_events.check(event) for event in events])
+    num_prs = sum([pr_events.matches_event(event) for event in events])
 
     # Assert
     assert num_commit_events == 0

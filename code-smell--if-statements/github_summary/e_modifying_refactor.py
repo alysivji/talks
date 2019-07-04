@@ -17,7 +17,7 @@ class GitHubUserEvents:
         event_types = [Commits(), Stars(), PullRequestsOpened(), IssuesOpened()]
         for event in events:
             for event_type in event_types:
-                if event_type.check(event):
+                if event_type.matches_event(event):
                     event_type.append(event)
         return event_types
 
@@ -42,7 +42,7 @@ class EventList:
 
 class Commits(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return True if event["type"] == "PushEvent" else False
 
     def generate_summary_text(self):
@@ -56,7 +56,7 @@ class Commits(EventList):
 
 class Stars(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return True if event["type"] == "WatchEvent" else False
 
     def generate_summary_text(self):
@@ -66,7 +66,7 @@ class Stars(EventList):
 
 class PullRequestsOpened(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return (
             True
             if event["type"] == "PullRequestEvent"
@@ -84,7 +84,7 @@ class PullRequestsOpened(EventList):
 
 class IssuesOpened(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return (
             True
             if event["type"] == "IssuesEvent"

@@ -1,3 +1,4 @@
+inflect
 pytest-cov
 pytest-mock
 pytest-vcr

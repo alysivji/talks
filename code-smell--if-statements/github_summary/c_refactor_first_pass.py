@@ -7,7 +7,7 @@ def perform(github_username):
 
     for event in events:
         for event_type in event_types:
-            if event_type.check(event):
+            if event_type.matches_event(event):
                 event_type.append(event)
 
     text = f"<@{github_username}> summary\n"
@@ -31,7 +31,7 @@ class EventList:
 
 class Commits(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return True if event["type"] == "PushEvent" else False
 
     def generate_summary_text(self):
@@ -45,7 +45,7 @@ class Commits(EventList):
 
 class Stars(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return True if event["type"] == "WatchEvent" else False
 
     def generate_summary_text(self):
@@ -55,7 +55,7 @@ class Stars(EventList):
 
 class PullRequests(EventList):
     @staticmethod
-    def check(event):
+    def matches_event(event):
         return (
             True
             if event["type"] == "PullRequestEvent"
