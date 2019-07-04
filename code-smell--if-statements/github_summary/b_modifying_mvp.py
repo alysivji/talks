@@ -17,7 +17,7 @@ def extract_events_of_interest(events):
             classified_events["WatchEvent"].append(event)
         elif (
             event["type"] == "PullRequestEvent"
-            and event.get("payload").get("action") == "opened"
+            and event.get("payload", {}).get("action") == "opened"
         ):
             classified_events["PullRequestEvent"].append(event)
     return classified_events

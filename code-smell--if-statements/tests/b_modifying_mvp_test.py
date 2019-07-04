@@ -1,8 +1,18 @@
 from github_summary.b_modifying_mvp import (
     extract_events_of_interest,
     generate_summary_from_events,
+    perform
 )
 import pytest
+
+
+@pytest.mark.end_to_end
+@pytest.mark.vcr()
+def test_perform():
+    summary_text = perform(github_username="alysivji")
+
+    assert "busy-beaver-dev/busy-beaver" in summary_text
+    assert ":star:" in summary_text
 
 
 @pytest.mark.unit
