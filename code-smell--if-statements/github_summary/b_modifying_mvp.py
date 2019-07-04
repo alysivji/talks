@@ -9,7 +9,7 @@ GITHUB_OAUTH_TOKEN = os.getenv("GITHUB_OAUTH_TOKEN", None)
 def perform(github_username):
     user_events = get_github_events(github_username)
     classified_events = extract_events_of_interest(user_events)
-    return generate_summary(github_username, classified_events)
+    return generate_summary_from_events(github_username, classified_events)
 
 
 def get_github_events(github_username):
@@ -37,13 +37,13 @@ def extract_events_of_interest(events):
             classified_events["WatchEvent"].append(event)
         elif (
             event["type"] == "PullRequestEvent"
-            and event["payload"].get("action") == "opened"
+            and event.get("payload").get("action") == "opened"
         ):
             classified_events["PullRequestEvent"].append(event)
     return classified_events
 
 
-def generate_summary(github_username, classified_events):
+def generate_summary_from_events(github_username, classified_events):
     text = f"<@{github_username}> summary\n"
     for event_type, events in classified_events.items():
         repos = list(set([event["repo"]["name"] for event in events]))
@@ -62,11 +62,5 @@ def generate_summary(github_username, classified_events):
                 f'{event["repo"]["name"]}#{event["payload"]["pull_request"]["number"]}'
                 for event in events
             ]
-            text += f">:arrow_heading_up: {repo_count} PRs(s): {', '.join(prs_made)}\n"
-            # it's getting confusing tho... this doens't represent repo_count at all
-            # when live coding, rename it
-            # random thoughts below:
-            # but it's a generic name that represents something in the code base
-            # it doesn't really mean anything in the domain
-            # what we really want is pr_count, star_count
+            text += f">:arrow_heading_up: {repo_count} PR(s): {', '.join(prs_made)}\n"
     return text
