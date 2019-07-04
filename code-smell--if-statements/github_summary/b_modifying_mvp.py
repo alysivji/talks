@@ -42,5 +42,6 @@ def generate_summary_from_events(github_username, classified_events):
                 f'{event["repo"]["name"]}#{event["payload"]["pull_request"]["number"]}'
                 for event in events
             ]
-            text += f">:arrow_heading_up: {repo_count} PR(s): {', '.join(prs_made)}\n"
+            prs_count = len(prs_made)
+            text += f">:arrow_heading_up: {prs_count} PR(s): {', '.join(prs_made)}\n"
     return text
