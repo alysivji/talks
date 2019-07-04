@@ -14,7 +14,7 @@ class GitHubEvents:
 
     @staticmethod
     def classify_events(events):
-        event_types = [Commits(), Stars(), PullRequestsOpened()]
+        event_types = [Commits(), Stars(), PullRequestsOpened(), IssuesOpened()]
         for event in events:
             for event_type in event_types:
                 if event_type.check(event):
