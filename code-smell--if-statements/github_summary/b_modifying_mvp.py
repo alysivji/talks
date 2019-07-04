@@ -1,31 +1,11 @@
 from collections import defaultdict
-import os
-from http import HTTPStatus
-import requests
-
-GITHUB_OAUTH_TOKEN = os.getenv("GITHUB_OAUTH_TOKEN", None)
+from .toolbox import get_github_events
 
 
 def perform(github_username):
     user_events = get_github_events(github_username)
     classified_events = extract_events_of_interest(user_events)
     return generate_summary_from_events(github_username, classified_events)
-
-
-def get_github_events(github_username):
-    headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "Authorization": f"token {GITHUB_OAUTH_TOKEN}",
-        "Content-Type": "application/json",
-        "User-Agent": "BusyBeaver",
-    }
-    url = f"https://api.github.com/users/{github_username}/events/public"
-
-    resp = requests.get(url, headers=headers)
-
-    if resp.status_code != HTTPStatus.OK:
-        resp.raise_for_status()
-    return resp.json()
 
 
 def extract_events_of_interest(events):

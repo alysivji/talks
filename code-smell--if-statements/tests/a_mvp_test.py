@@ -1,16 +1,8 @@
 from github_summary.a_mvp import (
-    get_github_events,
     extract_events_of_interest,
     generate_summary_from_events,
 )
 import pytest
-
-
-@pytest.mark.unit
-@pytest.mark.vcr()
-def test_get_github_events():
-    events = get_github_events("alysivji")
-    assert len(events) > 0
 
 
 @pytest.mark.unit
