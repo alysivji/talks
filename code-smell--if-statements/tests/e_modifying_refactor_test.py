@@ -3,7 +3,7 @@ import responses
 
 from github_summary.e_modifying_refactor import (
     Commits,
-    GitHubEvents,
+    GitHubUserEvents,
     IssuesOpened,
     perform,
     PullRequestsOpened,
@@ -34,7 +34,7 @@ def test_generate_summary_for_empty_events():
         json=[],
     )
 
-    events = GitHubEvents("alysivji")
+    events = GitHubUserEvents("alysivji")
     output_text = events.generate_summary_text()
 
     assert "alysivji" in output_text
