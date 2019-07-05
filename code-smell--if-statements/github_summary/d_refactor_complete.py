@@ -2,14 +2,14 @@ from .toolbox import get_github_events
 
 
 def perform(github_username):
-    user_events = GitHubEvents(github_username)
+    user_events = GitHubEGitHubUserEventsents(github_username)
     return user_events.generate_summary_text()
 
 
-class GitHubEvents:
-    def __init__(self, username):
-        events = get_github_events(username)
-        self.username = username
+class GitHubEGitHubUserEventsents:
+    def __init__(self, user):
+        events = get_github_events(user)
+        self.user = user
         self.event_types = self.classify_events(events)
 
     @staticmethod
@@ -22,7 +22,7 @@ class GitHubEvents:
         return event_types
 
     def generate_summary_text(self):
-        text = f"<@{self.username}> summary\n"
+        text = f"<@{self.user}> summary\n"
         for event_type in self.event_types:
             if len(event_type) > 0:
                 text += event_type.generate_summary_text()
