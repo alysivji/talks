@@ -2,11 +2,11 @@ from .toolbox import get_github_events
 
 
 def perform(github_username):
-    user_events = GitHubEGitHubUserEventsents(github_username)
+    user_events = GitHubUserEvents(github_username)
     return user_events.generate_summary_text()
 
 
-class GitHubEGitHubUserEventsents:
+class GitHubUserEvents:
     def __init__(self, user):
         events = get_github_events(user)
         self.user = user
