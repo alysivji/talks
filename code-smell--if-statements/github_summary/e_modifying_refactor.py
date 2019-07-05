@@ -57,7 +57,7 @@ class Commits(EventList):
 class Stars(EventList):
     @staticmethod
     def matches_event(event):
-        return True if event["type"] == "WatchEvent" else False
+        return event["type"] == "WatchEvent"
 
     def generate_summary_text(self):
         repos = list(set([event["repo"]["name"] for event in self.events]))
@@ -68,10 +68,8 @@ class PullRequestsOpened(EventList):
     @staticmethod
     def matches_event(event):
         return (
-            True
-            if event["type"] == "PullRequestEvent"
+            event["type"] == "PullRequestEvent"
             and event.get("payload", {}).get("action") == "opened"
-            else False
         )
 
     def generate_summary_text(self):
@@ -86,10 +84,8 @@ class IssuesOpened(EventList):
     @staticmethod
     def matches_event(event):
         return (
-            True
-            if event["type"] == "IssuesEvent"
+            event["type"] == "IssuesEvent"
             and event.get("payload", {}).get("action") == "opened"
-            else False
         )
 
     def generate_summary_text(self):
