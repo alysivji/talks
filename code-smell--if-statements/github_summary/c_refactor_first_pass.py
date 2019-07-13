@@ -28,6 +28,9 @@ class EventList:
     def append(self, item):
         self.events.append(item)
 
+    def generate_summary_text(self):
+        return NotImplementedError
+
 
 class Commits(EventList):
     @staticmethod
