@@ -19,7 +19,11 @@ def test_perform():
 @pytest.mark.unit
 def test_extract_events_of_interest_standard_case():
     # Arrange
-    events = [{"type": "PushEvent"}, {"type": "PushEvent"}, {"type": "WatchEvent"}]
+    events = [
+        {"type": "PushEvent"},
+        {"type": "PushEvent"},
+        {"type": "WatchEvent"},
+    ]
 
     # Act
     classified_events = extract_events_of_interest(events)

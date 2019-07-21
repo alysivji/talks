@@ -39,6 +39,10 @@ class EventList:
     def append(self, item):
         self.events.append(item)
 
+    @staticmethod
+    def matches_event(event):
+        return NotImplementedError
+
     def generate_summary_text(self):
         return NotImplementedError
 

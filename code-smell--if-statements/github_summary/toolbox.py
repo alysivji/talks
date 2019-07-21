@@ -10,7 +10,6 @@ def get_github_events(github_username):
         "Accept": "application/vnd.github.v3+json",
         "Authorization": f"token {GITHUB_OAUTH_TOKEN}",
         "Content-Type": "application/json",
-        "User-Agent": "BusyBeaver",
     }
     url = f"https://api.github.com/users/{github_username}/events/public"
 
