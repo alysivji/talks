@@ -6,6 +6,7 @@ Repo for all my talks (slides and code)
 
 | Date | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
+|Jul 27|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyOhio](https://www.pyohio.org/2019/presentations/74/)|[Slides](http://bit.ly/code-smell-if-statements)|
 |Apr 24|[Testing from the Ground Up](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[DuPage Python](https://www.meetup.com/DuPage-Python-Meetup/events/259742178/)|[Slides](http://bit.ly/testing-from-the-ground-up)|
 |Apr 14|[Testing from the Ground Up](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[PyTexas](https://www.pytexas.org/2019)|[Slides](http://bit.ly/testing-from-the-ground-up) / [Video](https://www.youtube.com/watch?v=MWgZ_xi8tME)|
 |Apr 13|[Busy-Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/alysivji/busy-beaver)|[PyTexas](https://www.pytexas.org/2019) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning) / [Video](https://www.youtube.com/watch?v=5z6a_MdxxU4)|
