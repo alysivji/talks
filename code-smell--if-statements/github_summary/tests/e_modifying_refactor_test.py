@@ -134,7 +134,6 @@ def test_stars():
         {"repo": {"name": "alysivji/repo1"}},
         {"repo": {"name": "alysivji/repo2"}},
     ]
-
     stars = Stars()
     [stars.append(event) for event in classified_events]
 
