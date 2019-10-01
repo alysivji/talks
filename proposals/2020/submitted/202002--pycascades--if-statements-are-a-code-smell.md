@@ -2,15 +2,15 @@
 
 ## Length
 
-30
+25
 
 ## Audience Level
 
-Beginner
+All
 
 ## Elevator Pitch
 
-`if` statements allow us to selectively execute code based on conditional logic. Overusing conditionals produces code that is hard to read and difficult to modify. This talk will demonstrate how to refactor `if` statements into polymorphic classes, resulting in cleaner program design. After this session, you will be able to implement complex conditional logic using simple Python classes.
+`if` statements allow us to selectively execute code based on conditional logic. Overusing conditionals results in code that is hard to understand and difficult to modify. This talk will demonstrate how to refactor `if` statements into polymorphic classes, resulting in cleaner program design.
 
 ## Description
 
@@ -34,16 +34,16 @@ The session is geared towards developers who do not have a lot of experience imp
     - Discuss limitations + how to refactor
 - Code Smell #2: Nested `if` Statements (3 minutes)
     - Discuss limitations + how to refactor
-- Code Smell #3: Duplicate `if` Statements (6 minutes)
+- Code Smell #3: Duplicate `if` Statements (3 minutes)
     - Introduction to problem with an open-source case study
     - Initial solution (hackathon)
     - Try to add a new feature, it's difficult
     - Discuss limitations
-- Object-Oriented Programming (OOP) in Python (6 minutes)
+- Object-Oriented Programming (OOP) in Python (5 minutes)
     - High-level intro
     - Principles of OOP
     - Dive into polymorphism with detailed example
-- Duplicate `if` Statements: Case Study Revisited (6 minutes)
+- Duplicate `if` Statements: Case Study Revisited (5 minutes)
     - Break the problem down -- what are we trying to do
     - Walk thru refactor process
     - Explicitly define steps to refactor `if` statements into polymorphic classes
@@ -60,6 +60,6 @@ I have presented this talk at PyOhio, PyCon Balkan, and a local Python meetup (C
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyOhio, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed here: https://bit.ly/siv-talks-playlist
 
-## Slides link (optional)
+## Tags
 
-[http://bit.ly/code-smell-if-statements](http://bit.ly/code-smell-if-statements)
+Python, object oriented programming, oop, software design, refactoring, classes

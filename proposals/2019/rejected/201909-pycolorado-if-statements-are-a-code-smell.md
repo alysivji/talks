@@ -51,6 +51,6 @@ I have given a shorter version of this talk at a local Python meetup. The audien
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyOhio, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed here: youtube.com/playlist?list=PLi5-nQFgraTq0WTtjQc7OY7ywpBA86e7i
 
-## Slides link (optional)
+## Tags
 
-[http://bit.ly/code-smell-if-statements](http://bit.ly/code-smell-if-statements)
+Python, object oriented programming, oop, software design, refactoring
