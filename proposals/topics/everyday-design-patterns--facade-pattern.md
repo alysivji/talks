@@ -10,15 +10,15 @@ All
 
 ## Elevator Pitch
 
-Developers spend lots of time writing code to integrate with third-party packages and APIs. We spend additional time updating systems when the services we depend on change. This talk will demonstrate HOWTO leverage the Facade Pattern to hide complexity and isolate the impact of changes.
+Developers spend lots of time writing code to integrate third-party packages and APIs into our project. We spend additional time updating systems when our dependencies change. This talk will demonstrate HOWTO leverage the Facade Pattern to hide complexity and isolate the impact of changes.
 
 ## Description
 
-Whether we realize it or not, we are making software design decisions when we integrate third-party libraries and APIs into our codebase. Directly integrating dependencies into business logic results in code that is brittle and difficult to modify. Changes made to upstream packages can require us to update integration code across the project.
+Whether we realize it or not, we make software design decisions when we integrate third-party libraries and APIs into our codebase. Directly adding dependencies into business logic couples our code to something we do not control. This makes code hard to modify and even harder to test. When upstream packages change, we have to update integration code across the project.
 
-This talk will demonstrate how to use Object-Oriented programming principles, specifically abstraction and encapsulation, to isolate the impact of upstream changes. The material will be presented in the context of modifying code to handle an API version upgrade. First, we will walk through the initial implementation and discuss its limitations. Then we will investigate how the Facade Pattern can improve program design.
+This talk demonstrates HOWTO use object-oriented programming principles, specifically abstraction and encapsulation, to hide complexity and isolate the impact of upstream changes. By using an API version upgrade as our guiding example: we will walk through the initial implementation, discuss its limitations, and show how the Facade Pattern improves software design.
 
-The session is geared towards developers of all levels looking for a friendlier approach to Design Patterns. By applying the principles outlined in this talk, you will be able to utilize the Facade pattern to write robust code that is easier to maintain.
+The session is geared towards developers of all levels looking for a friendlier approach to Design Patterns. By applying the principles outlined, you will be able to use the Facade pattern to write robust code that is easy to maintain.
 
 ### Outline
 

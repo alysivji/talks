@@ -6,11 +6,13 @@ Repo for all my talks (slides and code)
 
 | Date | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
+|Oct 31|Life Without `pip install`|[ChiPy](https://www.meetup.com/_ChiPy_/events/264947364/) ⚡ Talk|[Slides](http://bit.ly/life-without-pip)|
+|Oct 3|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon Balkan](https://pyconbalkan.com/speakers/2019/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://youtu.be/p3OqOkt8GBY?t=18328)|
 |Sep 26|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[ChiPy Lunch Break SIG](https://www.meetup.com/_ChiPy_/events/ljpjfryzmbjc/)|[Slides](http://bit.ly/code-smell-if-statements)|
 |Sep 18|Facade Pattern|[ChiPy Data SIG](https://www.meetup.com/_ChiPy_/events/263837967/) ⚡ Talk|[Slides](http://bit.ly/facade-pattern)|
 |Aug 22|[Busy Beaver: Idea to Execution](https://github.com/busy-beaver-dev/busy-beaver)|[PyLadies Chicago](https://www.meetup.com/Chicago-PyLadies/events/263721378/)|[Slides](http://bit.ly/bb-idea-to-execution)|
 |Aug 17|[Busy Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/busy-beaver-dev/busy-beaver)|[PyBay](https://pybay.com/) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
-|Jul 28|[Busy Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/busy-beaver-dev/busy-beaver)|[PyOhio](https://www.pyohio.org/2019/) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning) / [Video](https://youtu.be/eHGicXNDovs?t=1190)|
+|Jul 28|[Busy Beaver: Chicago Python's Community Engagement Slack bot](https://github.com/busy-beaver-dev/busy-beaver)|[PyOhio](https://www.pyohio.org/2019/) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning) / [Video](https://youtu.be/eHGicXNDovs?t=1190) / [Video](https://www.youtube.com/watch?v=AuTODIJKuRA)|
 |Jul 27|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyOhio](https://www.pyohio.org/2019/presentations/74/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://youtube.com/watch?v=Gxfvef2OUcg)|
 |Jul 18|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|Ekta Flow|[Slides](http://bit.ly/code-smell-if-statements)|
 |Apr 24|[Testing from the Ground Up](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[DuPage Python](https://www.meetup.com/DuPage-Python-Meetup/events/259742178/)|[Slides](http://bit.ly/testing-from-the-ground-up)|

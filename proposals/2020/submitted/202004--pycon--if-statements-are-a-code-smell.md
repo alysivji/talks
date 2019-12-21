@@ -8,13 +8,17 @@
 
 > Both your title and this description are made public and displayed in the conference program to help attendees decide whether they are interested in this presentation. Limit this description to a few concise paragraphs.
 
-`if` statements allow us to selectively execute code based on conditional logic. Overusing conditionals produces code that is hard to read and difficult to modify. This talk will demonstrate HOWTO refactor `if` statements into polymorphic classes, resulting in cleaner program design. After this session, you will be able to implement complex conditional logic using simple Python classes.
+`if` statements are elements of a programming language that allow us to control what statements are executed. By chaining together a series of `if` statements, we can solve any problem we can think of. But code with too many `if` statements is hard to read and even harder to change. Workarounds that once allowed us to move fast, now get in the way when we go in to make modifications. It doesn’t have to be this way!
+
+This talk demonstrates HOWTO handle complex conditional logic with simple Python classes. The material will be presented in the context of a code refactor for an open-source project: we examine the initial solution featuring duplicate `if` statements, show how hard it is to make a change, and walk through the process of refactoring `if` blocks into polymorphic classes. The case study has been simplified to illustrate concepts you can apply to your own code.
+
+After this talk, you will be able to identify situations where an object-oriented solution can be used to improve software design. You will also be exposed to tradeoffs we need to think about before refactoring to higher-level abstractions.
 
 ## Who and Why (Audience)
 
 > 1–2 paragraphs that should answer three questions: (1) Who is this talk for? (2) What background knowledge or experience do you expect the audience to have? (3) What do you expect the audience to learn or do after watching the talk
 
-The session is geared towards developers who do not have a lot of experience implementing Object-Oriented solutions. After this talk, you will be able to identify situations where Object-Oriented principles can be used to simplify complex conditional logic. Using the steps outlined, you will be able to refactor code to improve software design without changing existing functionality.
+The session is geared towards beginner / intermediate developers who do not have a lot of experience designing Object-Oriented solutions. After this talk, you will be able to identify situations where Object-Oriented principles can be used to simplify complex conditional logic. Using the steps outlined, you will be able to refactor code to improve software design without changing existing functionality.
 
 ### Outline
 
@@ -63,4 +67,4 @@ The session is geared towards developers who do not have a lot of experience imp
 
 I have presented this talk at PyOhio, PyCon Balkan, and a local Python meetup (Chicago Python). The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
 
-On top of being a regular speaker in the Chicago tech community, I have also spoken at PyOhio, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed here: https://bit.ly/siv-talks-playlist
+On top of being a regular speaker in the Chicago tech community, I have also spoken at PyTennessee, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed here: https://bit.ly/siv-talks-playlist
