@@ -1,6 +1,8 @@
 # Community First: Overview of the Python Ecosystem
 
-My first attempt at live coding a talk.
+## Media
+
+- [Slides](http://bit.ly/python-ecosystem-overview)
 
 ## Requirements
 
@@ -45,14 +47,18 @@ Download Divvy data used in `data-analysis.ipynb` from https://www.divvybikes.co
 - [awesome-python](https://github.com/vinta/awesome-python)
 - [Talk Python podcast](https://talkpython.fm/)
 
-Starting Out
+### Starting Out
 
 - [Automate the Boring Stuff](https://automatetheboringstuff.com/)
 
-Intermediate
+### Intermediate
 
 - [Effective Python](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
 
-Advanced
+### Advanced
 
 - [Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008)
+
+## Notes
+
+First attempt at live coding a talk.

@@ -10,4 +10,7 @@ Containerization technologies such as Docker enable software to run across vario
 This talk will cover the basics of Docker; discuss how containers fit into Data Science workflows; and provide a quick-start guide that can be used as a template to create a shareable Docker image!
 Learn how to leverage the power of Docker without having to worry about the underlying details of the technology. Although this session is geared towards data scientists, the underlying concepts have many use cases (come find me after to discuss).
 
-## [Link to Slides](http://bit.ly/docker-for-data-science)
+## Media
+
+- [Video](https://www.youtube.com/watch?v=oO8n3y23b6M)
+- [Slides](http://bit.ly/docker-for-data-science)

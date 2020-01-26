@@ -1,21 +1,33 @@
-# Setting up Hadoop + Spark2.1 Sandbox
+# Using the Hadoop Ecosystem to Drive Healthcare Innvoation
 
-## Download and install Hortonworks Sandbox
+## Abstract
+
+Over the past few years, we've been hearing about how Big Data will revolutionize the world. In this presentation, Aly will discuss how machine learning and the Hadoop software framework are driving innovation forward in the Healthcare Analytics space. There will also be a live demo showcasing how we can quickly answer questions using data we have. No technical background is necessary, but for those interested, code will be made available after the presentation.
+
+## Media
+
+- Video: [PyCon Balkan 2019](https://youtu.be/p3OqOkt8GBY?t=18328)
+- [Slides](http://bit.ly/code-smell-if-statements)
+
+## Setting Up Development Environment
+
+Instrunctions on setting up a Hadoop + Spark2.1 Sandbox environment
+
+### Download and install Hortonworks Sandbox
 
 [Hortonworks Sandbox HDP 2.6](https://hortonworks.com/downloads/#sandbox). Recommend VirtualBox installation.
 
-
-## Enable Port Forwarding in VirtualBox
+### Enable Port Forwarding in VirtualBox
 
 [Guide](https://www.howtogeek.com/122641/how-to-forward-ports-to-a-virtual-machine-and-use-it-as-a-server/)
 
-I use 8001 for Jupyter. 
+I use 8001 for Jupyter.
 
-## Mount local folder folder in VirtualBox
+### Mount local folder folder in VirtualBox
+
 [Guide](https://www.howtogeek.com/187703/how-to-access-folders-on-your-host-machine-from-an-ubuntu-virtual-machine-in-virtualbox/)
 
-
-## Upgrade to Spark 2.1
+### Upgrade to Spark 2.1
 
 [Guide](https://community.hortonworks.com/articles/53029/how-to-install-and-run-spark-20-on-hdp-25-sandbox.html)
 
@@ -65,7 +77,7 @@ SPARK_DRIVER_MEMORY=2048M
 # SPARK_DRIVER_MEMORY=512M
 ```
 
-## Install Python3.5 and Setting up Environment
+### Install Python3.5 and Setting up Environment
 
 [Guide](https://tecadmin.net/install-python-3-5-on-centos/)
 
@@ -82,12 +94,12 @@ rm Python-3.5.2.tgz
 
 pip3.5 install --upgrade pip
 pip3.5 install numpy scipy pandas scikit-learn
-pip3.5 install tornado pyzmq pygments matplotlib 
+pip3.5 install tornado pyzmq pygments matplotlib
 pip3.5 install jinja2 jsonschema seaborn
 pip3.5 install jupyter notebook
 ```
 
-## Set up Jupyter Notebook and connect to Spark
+### Set up Jupyter Notebook and connect to Spark
 
 1. Go to main directory
 
@@ -122,9 +134,9 @@ chmod +x start_jupyter_py35_notebook.sh
 ./start_jupyter_py35_notebook.sh
 ```
 
-## Starting Jupyter Notebook and Spark instance
+### Starting Jupyter Notebook and Spark instance
 
 ```console
-$ ssh root@127.0.0.1 -p 2222
-$ ./start_jupyter_py35_notebook.sh
+ssh root@127.0.0.1 -p 2222
+./start_jupyter_py35_notebook.sh
 ```
