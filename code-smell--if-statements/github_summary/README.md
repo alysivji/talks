@@ -26,8 +26,7 @@ and generates summary output for each user.
 
 #### MVP
 
-
-
 When we first attack this problem, it makes sense to do it sequentially:
 - use requests to fetch data from the GitHub API, see [`toolbox.py`](toolbox.py)
--
+
+[TODO]

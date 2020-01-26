@@ -8,7 +8,7 @@
 
 > Both your title and this description are made public and displayed in the conference program to help attendees decide whether they are interested in this presentation. Limit this description to a few concise paragraphs.
 
-Developers spend lots of time writing code to integrate third-party packages and APIs into our project. Directly adding dependencies into business logic couples our code to something we do not control. This makes code hard to modify and even harder to test. When upstream packages change, we spend additional time updating integration code across the project.
+Developers spend lots of time writing code to integrate third-party packages and APIs into our project. Directly adding dependencies into business logic couples our code to something we do not control. This makes code hard to modify and even harder to test. When upstream packages change, we spend additional time updating integration code across the codebase.
 
 This talk demonstrates HOWTO use object-oriented programming principles, specifically abstraction and encapsulation, to hide complexity and isolate the impact of changes. By using an API version upgrade as our guiding example: we will walk through the initial implementation, discuss its limitations, and show how the Facade Pattern improves software design.
 

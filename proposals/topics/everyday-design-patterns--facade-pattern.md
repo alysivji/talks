@@ -14,7 +14,7 @@ Developers spend lots of time writing code to integrate third-party packages and
 
 ## Description
 
-Whether we realize it or not, we make software design decisions when we integrate third-party libraries and APIs into our codebase. Directly adding dependencies into business logic couples our code to something we do not control. This makes code hard to modify and even harder to test. When upstream packages change, we have to update integration code across the project.
+Whether we realize it or not, we make software design decisions when we integrate third-party libraries and APIs into our codebase. Directly adding dependencies into business logic couples our code to something we do not control. This makes code hard to modify and even harder to test. When upstream packages change, we have to update integration code across the codebase.
 
 This talk demonstrates HOWTO use object-oriented programming principles, specifically abstraction and encapsulation, to hide complexity and isolate the impact of upstream changes. By using an API version upgrade as our guiding example: we will walk through the initial implementation, discuss its limitations, and show how the Facade Pattern improves software design.
 
