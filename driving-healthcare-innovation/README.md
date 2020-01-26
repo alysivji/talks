@@ -6,8 +6,7 @@ Over the past few years, we've been hearing about how Big Data will revolutioniz
 
 ## Media
 
-- Video: [PyCon Balkan 2019](https://youtu.be/p3OqOkt8GBY?t=18328)
-- [Slides](http://bit.ly/code-smell-if-statements)
+- [Slides](https://github.com/alysivji/talks/blob/master/driving-healthcare-innovation/slides/using-the-hadoop-ecosystem-to-drive-healthcare-innovation.pptx)
 
 ## Setting Up Development Environment
 
