@@ -1,0 +1,8 @@
+PyGithub
+requests
+sgqlc
+
+pytest
+pytest-cov
+pytest-mock
+responses
