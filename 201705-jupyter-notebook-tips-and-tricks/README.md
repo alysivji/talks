@@ -34,7 +34,7 @@ Use Jupyter notebook widgets to make exploratory data analysis interactive! [Doc
 
 ## Jupyter + Spark (Hortonworks Sandbox)
 
-[Instructions on how to set up](https://github.com/alysivji/talks/tree/master/201704-healthcare-big-data-analytics) the Hortonworks Sandbox with Spark 2.1 and connect it to a Jupyter notebook.
+[Instructions on how to set up](https://github.com/alysivji/talks/tree/master/driving-healthcare-innovation) the Hortonworks Sandbox with Spark 2.1 and connect it to a Jupyter notebook.
 
 ### Other ways to use Spark in a notebook
 
