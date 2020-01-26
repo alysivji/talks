@@ -4,10 +4,6 @@
 
 - [Slides](http://bit.ly/python-ecosystem-overview)
 
-## Requirements
-
-Download Divvy data used in `data-analysis.ipynb` from https://www.divvybikes.com/system-data
-
 ## Outline
 
 - What is Python used for
@@ -61,4 +57,5 @@ Download Divvy data used in `data-analysis.ipynb` from https://www.divvybikes.co
 
 ## Notes
 
-First attempt at live coding a talk.
+- first attempt at live coding a talk.
+- download Divvy data used in `data-analysis.ipynb` from https://www.divvybikes.com/system-data
