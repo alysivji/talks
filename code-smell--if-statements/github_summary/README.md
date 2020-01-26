@@ -22,11 +22,21 @@ and generates summary output for each user.
 
 ## Explaination of Code
 
+### Overview of Files
+
+- `a` is MVP
+- `b` is trying to change MVP, it's slightly painful and a bit messy
+- `c` is stage 1 of the refactor
+- `d` is what it looks like after the refactor is complete
+- `e` shows how easy it is to make changes by adding a class (Single Responsibility Principle FTW)
+- `f` is the final version from production
+
 ### Conditional Logic
 
 #### MVP
 
 When we first attack this problem, it makes sense to do it sequentially:
+
 - use requests to fetch data from the GitHub API, see [`toolbox.py`](toolbox.py)
 
 [TODO]
