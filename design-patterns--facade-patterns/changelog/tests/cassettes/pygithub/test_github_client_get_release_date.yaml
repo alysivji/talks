@@ -1,0 +1,186 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+      authorization:
+      - DUMMY
+    method: GET
+    uri: https://api.github.com/repos/busy-beaver-dev/busy-beaver
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 27 Jan 2020 06:07:05 GMT
+      ETag:
+      - W/"e0faf73ec2dc229fbb7f02c3904b3d91"
+      Last-Modified:
+      - Sun, 26 Jan 2020 04:40:51 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      X-Accepted-OAuth-Scopes:
+      - repo
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - DEB1:6B58:19D1D2C:35ED2D9:5E2E7E09
+      X-OAuth-Scopes:
+      - ''
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4973'
+      X-RateLimit-Reset:
+      - '1580105842'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+      authorization:
+      - DUMMY
+    method: GET
+    uri: https://api.github.com/repos/busy-beaver-dev/busy-beaver/releases/tags/1.3.2
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA61VYU/bMBD9K5b7ZUhtnSaliEgIIdCkfWglpsIQY6qcxCQGx45sJ6iJ+O87p6Fq
+        o4mtjA9NG+feu5e7e9cGl1rgEGfWFiYkhBZ8nHKbldE4VjnRrFCGRKVZjyJGK6ZHCat27yFCMGqY
+        IX4wCY6PTwM8xNQYZs3qs5nJhhcSlIVQNOkl2Bya/5TfJWnOJc3ZUNCIiVfImNlc9PLtlOmfCmRp
+        SibjYOwDHU9w+FawIZYqYSt3hOdX8ewmvzX3P77W98tv9Xw5nyyWzzVAAL5ymiDqjcVSnTK7gkbl
+        3HKTwaOcGss0hPdCE00fLQ4fqTAMGlTaTGkcNliolEvAUbE2vHrinbZpMDsNpsG+tOvZ7d1CxE/X
+        9eLpuV5czc9crysKMvq9bg+N1/WiNEzHSlombTtVJen4z6uzKXCkumNpa+D6+95MOjZDdgS/35ud
+        wEclhHoBdF/u/tDvJyBbFAjb/OYy/QADoBqibMagWvAKbqpSbv7mk56YFtEQ9wUT4zgMVFqzvhl6
+        Pu6xdBiQ8yJBSdP6vCUrIxNrXliu5GFV2kMCk9IplbymhzMB0gBBu3oOKnOLACSrYNAOg24gDSk0
+        r2i8dqXQLGa8gsJ+gK6HBTa7Lpxzb6DxrszcshVNcme91pKvQ1xo1u3SrU1jzagFBRSci33P90be
+        ZOTPlt40nHrh9OQeqIoyEmD9P0RNTkMInHguqtuc4c9fbpHoiIr+Njt48Xc025VW8+IzaDuaLW2k
+        kjW8/WAwQJcZlSkzD/pBus8IfWduy6G7i4QWsPWQVejuUnDoPqIyQbmqGOISTt2GVBKBexMI+zLw
+        /dnRhuKitCqHIiOeF0pbZOACRkUv8B+IuLtrw0+O8OtvsYuDkisHAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 27 Jan 2020 06:07:05 GMT
+      ETag:
+      - W/"8ded1fe7c7f8baac0fcbff9f594fd179"
+      Last-Modified:
+      - Sun, 26 Jan 2020 19:04:10 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      X-Accepted-OAuth-Scopes:
+      - repo
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - DEB1:6B58:19D1D3E:35ED2F3:5E2E7E09
+      X-OAuth-Scopes:
+      - ''
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4972'
+      X-RateLimit-Reset:
+      - '1580105842'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

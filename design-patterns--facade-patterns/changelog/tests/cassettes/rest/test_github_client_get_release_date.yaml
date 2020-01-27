@@ -47,7 +47,7 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 27 Jan 2020 05:21:06 GMT
+      - Mon, 27 Jan 2020 06:06:48 GMT
       ETag:
       - W/"d13da5ba3dbfce09f398c9ea2c0b8951"
       Last-Modified:
@@ -73,13 +73,13 @@ interactions:
       X-GitHub-Media-Type:
       - github.v3; format=json
       X-GitHub-Request-Id:
-      - D5B8:3445:19DE012:358AA77:5E2E7342
+      - DEA1:1750:2EE2286:53CC498:5E2E7DF8
       X-OAuth-Scopes:
       - ''
       X-RateLimit-Limit:
       - '5000'
       X-RateLimit-Remaining:
-      - '4998'
+      - '4974'
       X-RateLimit-Reset:
       - '1580105842'
       X-XSS-Protection:

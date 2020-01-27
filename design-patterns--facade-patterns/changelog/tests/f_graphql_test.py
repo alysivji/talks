@@ -2,7 +2,7 @@ import os
 from unittest.mock import MagicMock
 import pytest
 
-from changelog.e_vcr import generate_changelog, GitHubClient
+from changelog.f_graphql import generate_changelog, GitHubClient
 
 
 class FakeGitHubClient:
@@ -20,7 +20,7 @@ class FakeGitHubClient:
 
 @pytest.mark.unit
 def test_generate_changelog(mocker):
-    github_mock = mocker.patch("changelog.e_vcr.GitHubClient")
+    github_mock = mocker.patch("changelog.f_graphql.GitHubClient")
     commit_messages = ["first commit", "last commit"]
     github_mock.return_value = FakeGitHubClient(commit_messages)
 
@@ -29,7 +29,7 @@ def test_generate_changelog(mocker):
     assert messages == ["first commit", "last commit"]
 
 
-@pytest.mark.vcr(cassette_library_dir="changelog/tests/cassettes/rest")
+@pytest.mark.vcr(cassette_library_dir="changelog/tests/cassettes/graphql")
 @pytest.mark.integration
 def test_github_client_get_release_date():
     GITHUB_OAUTH_TOKEN = os.getenv("GITHUB_OAUTH_TOKEN", None)
@@ -40,7 +40,7 @@ def test_github_client_get_release_date():
     assert release_dt == "2020-01-26T19:04:10Z"
 
 
-@pytest.mark.vcr(cassette_library_dir="changelog/tests/cassettes/rest")
+@pytest.mark.vcr(cassette_library_dir="changelog/tests/cassettes/graphql")
 @pytest.mark.integration
 def test_github_client_get_commit_messages():
     GITHUB_OAUTH_TOKEN = os.getenv("GITHUB_OAUTH_TOKEN", None)

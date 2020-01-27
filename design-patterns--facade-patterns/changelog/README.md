@@ -16,7 +16,9 @@ to wrap third-party APIs.
   - [Functions to Improve Readability](#functions-to-improve-readability)
   - [Implement Facade](#implement-facade)
   - [Utilize Sessions](#utilize-sessions)
-  - [VCR.py Integration tests](#vcrpy-integration-tests)
+  - [VCR.py Integration Tests](#vcrpy-integration-tests)
+  - [GraphQL API](#graphql-api)
+  - [PyGitHub](#pygithub)
 
 <!-- /TOC -->
 
@@ -99,7 +101,7 @@ and use headers effectively.
 Also use a GitHub token we can use
 to grab information from private repos.
 
-### VCR.py Integration tests
+### VCR.py Integration Tests
 
 > File: `e_vcr.py`
 
@@ -111,3 +113,27 @@ I think it's better practice
 to use it for integration tests around wrapper classes.
 If underlying implementation changes,
 we only have to worry about how it effect each Client library.
+
+#### Need to reword
+
+- when we create an issolated integration, we can add integration tests that hit the API directly
+- something like VCR.py is useful when it is used to test the integration only
+  - VCR.py to test all your logic will work, but your tests become dependent on an external thing you don't control, versus an interface you can
+
+### GraphQL API
+
+> File: `f_graphql.py`
+
+GraphQL allows us to get the exact information we need.
+Just by swapping out the adapter and adapter tests,
+we can use a different kind of API
+without having to change underlying code.
+
+### PyGitHub
+
+> File: `g_pygithub.py`
+
+There are Python-based GitHub wrappers available on PyPI,
+but using them means are depending on code we didn't write.
+
+Always be safe and wrap your integration code.
