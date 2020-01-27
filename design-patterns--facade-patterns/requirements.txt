@@ -10,9 +10,10 @@ chardet==3.0.4            # via requests
 coverage==5.0.3           # via pytest-cov
 deprecated==1.2.7         # via pygithub
 graphql-core==3.0.2       # via sgqlc
-idna==2.8                 # via requests
+idna==2.8                 # via requests, yarl
 importlib-metadata==1.4.0  # via pluggy, pytest
 more-itertools==8.1.0     # via pytest
+multidict==4.7.4          # via yarl
 packaging==20.1           # via pytest
 pluggy==0.13.1            # via pytest
 py==1.8.1                 # via pytest
@@ -21,12 +22,16 @@ pyjwt==1.7.1              # via pygithub
 pyparsing==2.4.6          # via packaging
 pytest-cov==2.8.1
 pytest-mock==2.0.0
+pytest-vcr==1.0.2
 pytest==5.3.4
+pyyaml==5.3               # via vcrpy
 requests==2.22.0
 responses==0.10.9
 sgqlc==10.1
-six==1.14.0               # via packaging, pygithub, responses
+six==1.14.0               # via packaging, pygithub, responses, vcrpy
 urllib3==1.25.8           # via requests
+vcrpy==4.0.2
 wcwidth==0.1.8            # via pytest
-wrapt==1.11.2             # via deprecated
+wrapt==1.11.2             # via deprecated, vcrpy
+yarl==1.4.2               # via vcrpy
 zipp==2.1.0               # via importlib-metadata

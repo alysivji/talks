@@ -16,7 +16,7 @@ to wrap third-party APIs.
   - [Functions to Improve Readability](#functions-to-improve-readability)
   - [Implement Facade](#implement-facade)
   - [Utilize Sessions](#utilize-sessions)
-  - [Tests](#tests)
+  - [VCR.py Integration tests](#vcrpy-integration-tests)
 
 <!-- /TOC -->
 
@@ -93,13 +93,21 @@ a FkeGitHubClient stub to simplify tests.
 
 Everything is encapsulated in a class
 that can hold state.
-Create a [requests.session](https://requests.readthedocs.io/en/master/user/advanced/)
+Create a
+[requests.session](https://requests.readthedocs.io/en/master/user/advanced/)
 and use headers effectively.
 Also use a GitHub token we can use
 to grab information from private repos.
 
-### Tests
+### VCR.py Integration tests
 
-> File:
+> File: `e_vcr.py`
 
-- add integration test with vcr.py
+Replace responses-based unit tests
+with VCR.py-based integration tests.
+
+While we could use VCR.py for all of our tests,
+I think it's better practice
+to use it for integration tests around wrapper classes.
+If underlying implementation changes,
+we only have to worry about how it effect each Client library.

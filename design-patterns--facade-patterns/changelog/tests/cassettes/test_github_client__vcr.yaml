@@ -1,0 +1,90 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Change Log
+      authorization:
+      - DUMMY
+    method: GET
+    uri: https://api.github.com/repos/busy-beaver-dev/busy-beaver/releases/tags/1.3.2
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA61VYU/bMBD9K5b7ZUhtnSaliEgIIdCkfWglpsIQY6qcxCQGx45sJ6iJ+O87p6Fq
+        o4mtjA9NG+feu5e7e9cGl1rgEGfWFiYkhBZ8nHKbldE4VjnRrFCGRKVZjyJGK6ZHCat27yFCMGqY
+        IX4wCY6PTwM8xNQYZs3qs5nJhhcSlIVQNOkl2Bya/5TfJWnOJc3ZUNCIiVfImNlc9PLtlOmfCmRp
+        SibjYOwDHU9w+FawIZYqYSt3hOdX8ewmvzX3P77W98tv9Xw5nyyWzzVAAL5ymiDqjcVSnTK7gkbl
+        3HKTwaOcGss0hPdCE00fLQ4fqTAMGlTaTGkcNliolEvAUbE2vHrinbZpMDsNpsG+tOvZ7d1CxE/X
+        9eLpuV5czc9crysKMvq9bg+N1/WiNEzHSlombTtVJen4z6uzKXCkumNpa+D6+95MOjZDdgS/35ud
+        wEclhHoBdF/u/tDvJyBbFAjb/OYy/QADoBqibMagWvAKbqpSbv7mk56YFtEQ9wUT4zgMVFqzvhl6
+        Pu6xdBiQ8yJBSdP6vCUrIxNrXliu5GFV2kMCk9IplbymhzMB0gBBu3oOKnOLACSrYNAOg24gDSk0
+        r2i8dqXQLGa8gsJ+gK6HBTa7Lpxzb6DxrszcshVNcme91pKvQ1xo1u3SrU1jzagFBRSci33P90be
+        ZOTPlt40nHrh9OQeqIoyEmD9P0RNTkMInHguqtuc4c9fbpHoiIr+Njt48Xc025VW8+IzaDuaLW2k
+        kjW8/WAwQJcZlSkzD/pBus8IfWduy6G7i4QWsPWQVejuUnDoPqIyQbmqGOISTt2GVBKBexMI+zLw
+        /dnRhuKitCqHIiOeF0pbZOACRkUv8B+IuLtrw0+O8OtvsYuDkisHAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 27 Jan 2020 05:21:06 GMT
+      ETag:
+      - W/"d13da5ba3dbfce09f398c9ea2c0b8951"
+      Last-Modified:
+      - Sun, 26 Jan 2020 19:04:10 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      X-Accepted-OAuth-Scopes:
+      - repo
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - D5B8:3445:19DE012:358AA77:5E2E7342
+      X-OAuth-Scopes:
+      - ''
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4998'
+      X-RateLimit-Reset:
+      - '1580105842'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1
