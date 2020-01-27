@@ -2,6 +2,13 @@
 
 Repo for all my talks (slides and code)
 
+## 2020
+
+| Date | Topic | Location | Links |
+| :---: | :---- | :------- | :---: |
+|Mar 7|Everyday Design Patterns: Facade Pattern|[PyTennessee](https://2020.pytennessee.org/talks/everyday-design-patterns-facade-pattern)||
+|Feb 4|Everyday Design Patterns: Facade Pattern|[ChiPy WebDev/DevOps SIG](https://www.meetup.com/_ChiPy_/events/267876935/)||
+
 ## 2019
 
 | Date | Topic | Location | Links |
