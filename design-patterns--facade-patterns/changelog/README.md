@@ -14,8 +14,8 @@ to wrap third-party APIs.
 - [Explaination of Code](#explaination-of-code)
   - [Directly Integrate with Requests](#directly-integrate-with-requests)
   - [Functions to Improve Readability](#functions-to-improve-readability)
-  - [Facade](#facade)
-  - [Session](#session)
+  - [Implement Facade](#implement-facade)
+  - [Utilize Sessions](#utilize-sessions)
   - [Tests](#tests)
 
 <!-- /TOC -->
@@ -79,7 +79,7 @@ Monkeypatch the smaller functions to unit test
 We can test our business logic with a value
 and test the integration code separately.
 
-### Facade
+### Implement Facade
 
 > File: `c_facade.py`
 
@@ -87,14 +87,16 @@ Created a wrapper around the GitHub API.
 Monkeypatch the GitHubClient with
 a FkeGitHubClient stub to simplify tests.
 
-### Session
+### Utilize Sessions
 
-> File:
+> File: `d_session.py`
 
 Everything is encapsulated in a class
 that can hold state.
 Create a [requests.session](https://requests.readthedocs.io/en/master/user/advanced/)
 and use headers effectively.
+Also use a GitHub token we can use
+to grab information from private repos.
 
 ### Tests
 
