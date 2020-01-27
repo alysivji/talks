@@ -1,9 +1,5 @@
 import argparse
-import os
-
 import requests
-
-GITHUB_OAUTH_TOKEN = os.getenv("GITHUB_OAUTH_TOKEN", None)
 
 
 def generate_changelog(owner, repo, version):
