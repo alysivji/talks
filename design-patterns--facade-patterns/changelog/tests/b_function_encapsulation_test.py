@@ -1,7 +1,7 @@
 import pytest
 import responses
 
-from changelog.b_adding_functions import (
+from changelog.b_function_encapsulation import (
     generate_changelog,
     get_release_date,
     get_commit_messages,
@@ -42,8 +42,8 @@ def test_get_commits():
 @pytest.mark.unit
 def test_generate_changelog(mocker):
 
-    mocker.patch("changelog.b_adding_functions.get_release_date")
-    commit_mock = mocker.patch("changelog.b_adding_functions.get_commit_messages")
+    mocker.patch("changelog.b_function_encapsulation.get_release_date")
+    commit_mock = mocker.patch("changelog.b_function_encapsulation.get_commit_messages")
     commit_mock.return_value = ["first commit", "last commit"]
 
     messages = generate_changelog("owner", "repo", "1.0.0")

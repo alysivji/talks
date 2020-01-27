@@ -1,7 +1,7 @@
 import pytest
 import responses
 
-from changelog.a_directly_using_requests import generate_changelog
+from changelog.a_use_requests import generate_changelog
 
 
 @responses.activate
