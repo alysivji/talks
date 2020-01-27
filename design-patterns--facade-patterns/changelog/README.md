@@ -15,6 +15,8 @@ to wrap third-party APIs.
   - [Directly Integrate with Requests](#directly-integrate-with-requests)
   - [Functions to Improve Readability](#functions-to-improve-readability)
   - [Facade](#facade)
+  - [Session](#session)
+  - [Tests](#tests)
 
 <!-- /TOC -->
 
@@ -78,3 +80,24 @@ We can test our business logic with a value
 and test the integration code separately.
 
 ### Facade
+
+> File: `c_facade.py`
+
+Created a wrapper around the GitHub API.
+Monkeypatch the GitHubClient with
+a FkeGitHubClient stub to simplify tests.
+
+### Session
+
+> File:
+
+Everything is encapsulated in a class
+that can hold state.
+Create a [requests.session](https://requests.readthedocs.io/en/master/user/advanced/)
+and use headers effectively.
+
+### Tests
+
+> File:
+
+- add integration test with vcr.py
