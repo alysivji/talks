@@ -51,7 +51,6 @@ class FakeGitHubClient:
         return self.commit_messages
 
 
-@responses.activate
 @pytest.mark.unit
 def test_generate_changelog(mocker):
     github_mock = mocker.patch("changelog.c_facade.GitHubClient")

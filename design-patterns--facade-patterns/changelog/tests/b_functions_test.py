@@ -39,7 +39,6 @@ def test_get_commits():
     assert messages == ["first commit", "last commit"]
 
 
-@responses.activate
 @pytest.mark.unit
 def test_generate_changelog(mocker):
     mocker.patch("changelog.b_functions.get_release_date")
