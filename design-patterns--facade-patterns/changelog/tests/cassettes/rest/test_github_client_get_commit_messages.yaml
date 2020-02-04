@@ -1,0 +1,114 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Change Log
+      authorization:
+      - DUMMY
+    method: GET
+    uri: https://api.github.com/repos/busy-beaver-dev/busy-beaver/commits?sha=master&since=2020-01-25T19%3A04%3A10Z
+  response:
+    body:
+      string: !!binary |
+        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
+        AAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 27 Jan 2020 06:05:48 GMT
+      ETag:
+      - W/"e14840c9080e6f7c9442fa79fe88da9e"
+      Last-Modified:
+      - Sun, 26 Jan 2020 04:40:47 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      X-Accepted-OAuth-Scopes:
+      - ''
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - DE71:34D0:F19ADF:2471D8E:5E2E7DBC
+      X-OAuth-Scopes:
+      - ''
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4975'
+      X-RateLimit-Reset:
+      - '1580105842'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

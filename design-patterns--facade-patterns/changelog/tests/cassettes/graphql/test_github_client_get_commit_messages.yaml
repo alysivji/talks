@@ -1,0 +1,83 @@
+interactions:
+- request:
+    body: '{"query": "\n        query commitsSinceDt($owner: String!, $repo: String!,
+      $branch: String!, $since_dt: GitTimestamp) {\n            repository(owner:
+      $owner, name: $repo) {\n                object(expression: $branch) {\n                    ...
+      on Commit {\n                        history(since: $since_dt) {\n                            nodes
+      {\n                                messageHeadline\n                            }\n                        }\n                    }\n                }\n            }\n        }\n        ",
+      "variables": {"owner": "busy-beaver-dev", "repo": "busy-beaver", "branch": "master",
+      "since_dt": "2020-01-25T19:04:10Z"}, "operationName": null}'
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '679'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python-requests/2.22.0
+      authorization:
+      - DUMMY
+    method: POST
+    uri: https://api.github.com/graphql
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA22MMQvCQAyF/0qIi4JTB4VuxcXZSRCH2IttpJeUXlSk9L97N7iZ4ZH3eO+bMZAT
+        1jNOPFoSt+lTnN0e3Hr5ekm/UC1wwvoyY+SUqOMjUxhEGWtsnm6RnEHiaJNDyiLawVu8BykO1quq
+        2m9w2f7bn1gpMpybQKPzBG5wPgzC6kAaINorozWnrcVoCncbQq4V5i4zr0u5L7zJzJbOAAAA
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Cache-Control:
+      - no-cache
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 27 Jan 2020 06:07:05 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      X-Accepted-OAuth-Scopes:
+      - repo
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v4
+      X-GitHub-Request-Id:
+      - DEB0:3326:1E93569:3C18F3A:5E2E7E09
+      X-OAuth-Scopes:
+      - ''
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4991'
+      X-RateLimit-Reset:
+      - '1580108124'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1
