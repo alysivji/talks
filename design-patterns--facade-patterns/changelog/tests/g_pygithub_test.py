@@ -6,7 +6,7 @@ import pytest
 from changelog.g_pygithub import generate_changelog, GitHubClient
 
 
-class FakeGitHubClient:
+class GitHubClientStub:
     def __init__(self, commit_messages=None):
         self.commit_messages = commit_messages
         self.mock = MagicMock()
@@ -23,7 +23,7 @@ class FakeGitHubClient:
 def test_generate_changelog(mocker):
     github_mock = mocker.patch("changelog.g_pygithub.GitHubClient")
     commit_messages = ["first commit", "last commit"]
-    github_mock.return_value = FakeGitHubClient(commit_messages)
+    github_mock.return_value = GitHubClientStub(commit_messages)
 
     messages = generate_changelog("owner", "repo", "1.0.0")
 

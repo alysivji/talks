@@ -10,7 +10,6 @@ to wrap third-party APIs.
 
 - [Background](#background)
   - [MVP](#mvp)
-- [Development Environment](#development-environment)
 - [Explaination of Code](#explaination-of-code)
   - [Directly Integrate with Requests](#directly-integrate-with-requests)
   - [Functions to Improve Readability](#functions-to-improve-readability)
@@ -30,19 +29,9 @@ We want to generate a `CHANGELOG` for release.
 
 Command line application that takes arguments: `public repository` and `previous version`
 
-App grabs data from GitHub and
-
- takes in a public repository,
-a previously tagged release,
-
-Generate a CHANGELOG consisting of commit messages
-
-## Development Environment
-
-1. Create a virtual environment for Python 3.6+
-1. `pip install -r requirements.txt`
-1. [Set up a GitHub Personal Access Token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
-1. Set `GITHUB_OAUTH_TOKEN` environment variable to access token from previous step
+- app grabs data from GitHub
+- accepts a public repository and a previous release
+- generate a CHANGELOG consisting of commit messages
 
 ## Explaination of Code
 
@@ -112,7 +101,7 @@ While we could use VCR.py for all of our tests,
 I think it's better practice
 to use it for integration tests around wrapper classes.
 If underlying implementation changes,
-we only have to worry about how it effect each Client library.
+we only have to worry about how it affects each Client library.
 
 #### Need to reword
 
@@ -128,6 +117,9 @@ GraphQL allows us to get the exact information we need.
 Just by swapping out the adapter and adapter tests,
 we can use a different kind of API
 without having to change underlying code.
+
+Integrating directly couples our code
+to something we do not control.
 
 ### PyGitHub
 
