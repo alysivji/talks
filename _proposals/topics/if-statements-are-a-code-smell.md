@@ -10,19 +10,19 @@ Beginner
 
 ## Elevator Pitch
 
-`if` statements allow us to selectively execute code based on conditional logic. Overusing conditionals produces code that is hard to read and difficult to modify. This talk will demonstrate how to refactor `if` statements into polymorphic classes, resulting in cleaner program design. After this session, you will be able to implement complex conditional logic using simple Python classes.
+`if` statements allow us to control what statements are executed. Code with too many `if` statements is hard to read and even harder to change. This talk will demonstrate how to refactor complex conditional logic with simple Python classes using a real-world example of Object-Oriented design.
 
 ## Description
 
-Writing software is about making trade-offs between getting things done and doing them right. Time constraints often force us to take shortcuts to handle slight variations resulting in patches of conditional logic sprinkled throughout our codebase. Workarounds that once allowed us to move quickly now hinder our progress in getting new features out to customers. It doesn't have to be this way!
+`if` statements are elements of a programming language that allow us to control what statements are executed. By chaining together a series of `if` statements, we can solve any problem we can think of. But code with too many `if` statements is hard to read and even harder to change. Workarounds that once allowed us to move fast, now get in the way when we go in to make modifications. It doesn’t have to be this way!
 
-This talk will demonstrate how to use Object-Oriented programming principles, specifically polymorphism, to handle conditional logic resulting in code that is easy to modify. The material will be presented in the context of a real-world code refactor for an open-source project. We will examine the initial solution, discuss its limitations, and walk through the process of refactoring duplicate `if` blocks into polymorphic classes.
+This talk demonstrates HOWTO handle complex conditional logic with simple Python classes. The material will be presented in the context of a code refactor for an open-source project: we examine the initial solution featuring duplicate `if` statements, show how hard it is to make a change, and walk through the process of refactoring `if` blocks into polymorphic classes. The case study has been simplified to illustrate concepts you can apply to your own code.
 
-The session is geared towards developers who do not have a lot of experience implementing Object-Oriented solutions. After this talk, you will be able to identify situations where Object-Oriented design can be used to simplify complex conditional logic. Using the steps outlined, you will be able to refactor code to improve software architecture without changing existing functionality.
+The session is geared towards beginner / intermediate developers who do not have a lot of experience designing Object-Oriented solutions. After this talk, you will be able to identify situations where Object-Oriented principles can be used to simplify complex conditional logic. Using the steps outlined, you will be able to refactor code to improve software design without changing existing functionality.
 
 ### Outline
 
-- Introduction to topic and speaker (2 minutes)
+- Introduction to topic and to speaker (2 minutes)
     - Not here to attack individuals or their code
     - Want to share a pattern that has helped my code become more readable and more testable
 - Overview of `if` statements (3 minutes)
@@ -56,9 +56,9 @@ The session is geared towards developers who do not have a lot of experience imp
 
 ## Notes
 
-I have presented this talk at PyOhio, PyCon Balkan, and a local Python meetup (Chicago Python). The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
+I have presented this talk at PyCon US, PyCon Balkan,and PyOhio. The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
 
-On top of being a regular speaker in the Chicago tech community, I have also spoken at PyOhio, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed here: https://bit.ly/siv-talks-playlist
+On top of being a regular speaker in the Chicago tech community, I have also spoken at PyTennessee, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed here: https://bit.ly/siv-talks-playlist
 
 ## Slides link (optional)
 
