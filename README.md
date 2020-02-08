@@ -2,14 +2,23 @@
 
 Repo for all my talks (slides and code)
 
-## 2020
+## Background
+
+I have been fortunate to share my knowledge
+by speaking at local User Groups and conferences.
+
+A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
+
+## Speaking Engagements
+
+### 2020
 
 | Date | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
 |Mar 7|Everyday Design Patterns: Facade Pattern|[PyTennessee](https://2020.pytennessee.org/talks/everyday-design-patterns-facade-pattern)|[Slides](http://bit.ly/facade-pattern)|
 |Feb 4|Everyday Design Patterns: Facade Pattern|[ChiPy WebDev/DevOps SIG](https://www.meetup.com/_ChiPy_/events/267876935/)|[Slides](http://bit.ly/facade-pattern)|
 
-## 2019
+### 2019
 
 | Date | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
@@ -48,7 +57,7 @@ Repo for all my talks (slides and code)
 |Feb 10|I Am Open Source (And So Can You!)|[PyTennessee](https://www.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/i-am-open-source)|
 |Jan 11|I Am Open Source (And So Can You!)|[ChiPy](https://www.meetup.com/_ChiPy_/events/245973026/)|[Slides](http://bit.ly/i-am-open-source) / [Video](https://www.youtube.com/watch?v=UPEGoW8KyuI&t)|
 
-## 2017
+### 2017
 
 | Date | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
