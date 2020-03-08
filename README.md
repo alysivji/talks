@@ -15,6 +15,9 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
+|Apr 18|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon](https://us.pycon.org/2020/schedule/presentation/87/)|[Slides](http://bit.ly/code-smell-if-statements)|
+|Apr 9|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[ChiPy](https://www.meetup.com/_ChiPy_/events/269121651/)|[Slides](http://bit.ly/code-smell-if-statements)|
+|Mar 7|Life Without `pip install`|[PyTennessee](http://2020.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/life-without-pip)|
 |Mar 7|Everyday Design Patterns: Facade Pattern|[PyTennessee](https://2020.pytennessee.org/talks/everyday-design-patterns-facade-pattern)|[Slides](http://bit.ly/facade-pattern)|
 |Feb 4|Everyday Design Patterns: Facade Pattern|[ChiPy WebDev/DevOps SIG](https://www.meetup.com/_ChiPy_/events/267876935/)|[Slides](http://bit.ly/facade-pattern)|
 
@@ -37,7 +40,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 |Apr 3|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[ChiPy WebDev SIG](https://www.meetup.com/_ChiPy_/events/259748547/) ⚡ Talk|[Slides](http://bit.ly/code-smell-if-statements)|
 |Mar 28|[Busy Beaver: Idea to Execution](https://github.com/busy-beaver-dev/busy-beaver)|[ChiPy Lunch Break SIG](https://www.meetup.com/_ChiPy_/events/dzxcvqyzfblc/)|[Slides](http://bit.ly/bb-idea-to-execution)|
 |Feb 23|[Busy Beaver: Automating Community Engagement with Python](https://github.com/busy-beaver-dev/busy-beaver)|[PyCascades](https://2019.pycascades.com) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
-|Feb 9|[Busy Beaver: Automating Community Engagement with Python](https://github.com/busy-beaver-dev/busy-beaver)|[PyTennessee](https://www.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
+|Feb 9|[Busy Beaver: Automating Community Engagement with Python](https://github.com/busy-beaver-dev/busy-beaver)|[PyTennessee](http://2019.pytennessee.org/) ⚡ Talk|[Slides](http://bit.ly/busy-beaver-lightning)|
 |Jan 10|[Busy Beaver: Increasing Community Engagement with Python](https://github.com/busy-beaver-dev/busy-beaver)|[ChiPy](https://www.meetup.com/_ChiPy_/events/257467417/)|[Slides](http://bit.ly/busy-beaver) / [Video](https://www.youtube.com/watch?v=7dBESR_x7Kc&t=1141s)|
 
 ## 2018
@@ -67,4 +70,4 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 |Jun 25|[Knight's Tour Problem](https://github.com/alysivji/talks/tree/master/knights-tour)|Meetup study group|
 |Jun 8|[A Gentle Introduction to Context Managers](https://github.com/alysivji/talks/tree/master/context-manager-intro)|[ChiPy](https://www.meetup.com/_ChiPy_/events/240015768/)|[Slides](http://bit.ly/context-manager-chipy) / [Video](https://www.youtube.com/watch?v=hy-O0Qpr_Us)|
 |May 21|[Jupyter Notebook Tricks and Tips](https://github.com/alysivji/talks/tree/master/jupyter-notebook-tips-and-tricks)|PyCon Open Space|
-|Apr 28|[Using the Hadoop Ecosystem to Drive Healthcare Innovation](https://github.com/alysivji/talks/tree/master/driving-healthcare-innovation)|[Chicago Value-Based Care Meetup](https://www.meetup.com/Chicago-Technology-For-Value-Based-Healthcare-Meetup/events/238965958/)|[Slides](https://github.com/alysivji/talks/blob/master/driving-healthcare-innovation/slides/using-the-hadoop-ecosystem-to-drive-healthcare-innovation.pptx)
+|Apr 28|[Using the Hadoop Ecosystem to Drive Healthcare Innovation](https://github.com/alysivji/talks/tree/master/driving-healthcare-innovation)|[Chicago Value-Based Care Meetup](https://www.meetup.com/Chicago-Technology-For-Value-Based-Healthcare-Meetup/events/238965958/)|[Slides](https://drive.google.com/file/d/0B1-34QnNuY0VQ2RUUDhhSXF1ZUE/view?usp=sharing)
