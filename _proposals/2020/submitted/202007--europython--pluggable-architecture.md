@@ -10,11 +10,9 @@ Extend functionality without touching existing code
 
 > Description of the session proposal you are submitting. Be sure to include the goals and any prerequisite required to fully understand it. See the section Submitting Your Talk, Trainings, Helpdesk or Poster of the CFP for further details.
 
-Applications and libraries with a pluggable architecture allow developers to add functionality without touching existing code. Plugins can customize user interfaces, create new workflows, and interface with legacy systems.
+Applications and libraries with a pluggable architecture allow developers to add custom functionality. Plugins can customize user interfaces, create new workflows, and interface with legacy systems. Designing a plugin is often difficult - documentation is sparse, outdated, or non-existent. You end up diving into a unfamiliar codebase to figure out what to do.
 
-Designing a plugin is often difficult -- documentation is sparse, outdated, or non-existent. You end up having to read "other peoples' code" to figure out what to do.
-
-This talk examines Pluggable Architecture by designing a custom plugin system. We will learn how to design an interface, think about where to hook in custom behavior, and discuss testing techniques. By using the principles outlined, you will be able to extend functionality without touching existing code.
+This talk examines Pluggable Architecture by creating a custom plugin system: we will design an interface, think about where to hook in custom behavior, and discuss testing techniques. Understanding these principles will enable us to write custom plugins for third-party libraries. Extend the functionality of your favourite library without touching existing code!
 
 ### Outline
 
@@ -26,7 +24,7 @@ Overview of Plugin Architecture (3 minutes)
   - Advantages / disadvantages
 
 Motivating Example: Extend functionality of an existing library (5 minutes)
-  - Introduce problem -- auto-generate API documentation
+  - Want to auto-generate API documentation
   - Existing library doesn't support our framework
   - Use hooks to add new functionality
 
@@ -53,7 +51,7 @@ Conclusion (3 minutes)
 
 > We need a short description e.g. for YouTube and other distribution channels with limited space for abstracts. You could just use a shorter version of the long abstract.
 
-Applications and libraries with a pluggable architecture allow developers to add functionality without touching the existing code. Designing a plugin is difficult. Designing a plugin is often difficult -- documentation is sparse, outdated, or non-existent. You end up having to read "other peoples' code" to figure out what to do. This talk examines Pluggable Architecture by designing a custom plugin system. Extend functionality without touching existing code!
+Applications and libraries with a pluggable architecture allow developers to add custom functionality. Designing a plugin is often difficult - documentation is sparse, outdated, or non-existent. You end up diving into a unfamiliar codebase to figure out what to do. This talk examines Pluggable Architecture by designing a custom plugin system. Extend the functionality of your favourite library without touching existing code!
 
 ## Prerequisites for attending the session
 
