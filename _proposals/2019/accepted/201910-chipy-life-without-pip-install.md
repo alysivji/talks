@@ -6,13 +6,7 @@
 
 ## Description
 
-In this lightning talk, I will demonstrate how to import packages that have not been installed in a virtual environment. Along the way, we will learn about `importlib` and `sys.modules`.
-
-`pip` is the de-facto Python package manager. We use `pip` to install libraries hosted on the Python Package Index.
-
-pip is a  system used to install and manage software packages written in Python.[4] Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI).
-
-In this lightning talk, I will walk thru how we can use the Python standard library to import third-party packages that we d
+In this lightning talk, I will demonstrate how to import packages that have not been installed in a virtual environment.
 
 ## Short Bio
 
@@ -24,14 +18,6 @@ Aly Sivji is a Canadian expat living in Chicago. By day, he builds backend syste
 - there was this project.... had no tests
 - context managers
 - heartbeat... telltale heart. "ping-pong"
--
-
-Pie-Pee-Eye
-pie calvin eye
-
-not PyPy... that's a different thing entirely.
-
-Dustin's Talk https://www.youtube.com/watch?v=AQsZsgJ30AE
 
 ```python
 import builtins
