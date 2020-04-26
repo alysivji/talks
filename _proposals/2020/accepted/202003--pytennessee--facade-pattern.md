@@ -52,7 +52,7 @@ The session is geared towards developers of all levels looking for a friendlier 
 
 While it will be my first time giving this talk in its entirety, I gave a short lightning talk about the Facade Pattern at a Chicago Python meetup. The experience helped me understand how to structure the various topics to make the material digestible.
 
-I have experience in breaking down complex concepts into easily understood components. I recently gave a talk on how if statements can be refactored into polymorphism classes at PyCon Balkan. The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
+I have experience in breaking down complex concepts into easily understood components. I recently gave a talk on how if statements can be refactored into polymorphic classes at PyCon Balkan. The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyOhio, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 

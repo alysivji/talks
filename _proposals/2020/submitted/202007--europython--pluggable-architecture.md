@@ -79,6 +79,6 @@ Abstractions, Architecture, Development, Software Design, System Architecture
 
 While this will be my first time presenting this talk, I have written a [blog post on Pluggable Architecture](https://alysivji.github.io/simple-plugin-system.html). This post was feature in PyCoders Weekly.
 
-I have experience in breaking down complex concepts into easily understood components. I recently gave a talk on how if statements can be refactored into polymorphism classes at PyCon Balkan. The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
+I have experience in breaking down complex concepts into easily understood components. I recently gave a talk on how if statements can be refactored into polymorphic classes at PyCon Balkan. The audience appreciated the use of a real-world code example to help solidify abstract object-oriented concepts.
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyOhio, PyTexas, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
