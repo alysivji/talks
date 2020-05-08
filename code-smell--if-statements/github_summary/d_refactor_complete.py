@@ -41,10 +41,10 @@ class EventList:
 
     @staticmethod
     def matches_event(event):
-        return NotImplementedError
+        raise NotImplementedError
 
     def generate_summary_text(self):
-        return NotImplementedError
+        raise NotImplementedError
 
 
 class Commits(EventList):

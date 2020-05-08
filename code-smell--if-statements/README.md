@@ -6,5 +6,5 @@
 
 ## Media
 
-- [Video](https://youtu.be/p3OqOkt8GBY?t=18328)
+- [Video](https://www.youtube.com/watch?v=P0kfKqMHioQ)
 - [Slides](http://bit.ly/code-smell-if-statements)

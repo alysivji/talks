@@ -73,7 +73,11 @@ Beginner
 
 ## Tags
 
-Abstractions, Architecture, Development, Software Design, System Architecture
+- Abstractions
+- Architecture
+- Development
+- Software Design
+- System Architecture
 
 ## Notes
 

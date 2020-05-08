@@ -81,7 +81,11 @@ Beginner
 
 ## Tags
 
-Abstractions, Best Practice, Clean Code, Development, Software Design
+- Abstractions
+- Best Practice
+- Clean Code
+- Development
+- Software Design
 
 ## Notes
 
