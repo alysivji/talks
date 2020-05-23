@@ -110,3 +110,4 @@ ENV/
 notes.py
 notes.md
 _proposals/drafts
+db.sqlite3
