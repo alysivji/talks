@@ -31,5 +31,4 @@ class GitFetcher:
         return url_parts.netloc, RepoDetails(organization=parts[1], repo=parts[2])
 
     def get_stats(self):
-        result = self.provider.repo_stats()
-        print(result)
+        return self.provider.repo_stats()

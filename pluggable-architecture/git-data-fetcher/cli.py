@@ -1,5 +1,5 @@
 import argparse
-from git_data_fetcher.download_data import GitFetcher
+from git_data_fetcher.download import GitFetcher
 
 
 def parse_args():
@@ -12,6 +12,8 @@ def parse_args():
         required=True,
     )
     return vars(parser.parse_args())
+
+# TODO format output
 
 
 if __name__ == "__main__":
