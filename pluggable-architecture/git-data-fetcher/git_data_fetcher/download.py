@@ -6,6 +6,9 @@ class RepoDetails(NamedTuple):
     organization: str
     repo: str
 
+    def __str__(self):
+        return self.organization + "/" + self.repo
+
 
 class GitFetcher:
     providers = []

@@ -6,7 +6,6 @@ def test_url_parser():
 
     client = GitFetcher(url)
 
-    details = client.repo
-    assert details.domain == "gitlab.com"
-    assert details.organization == "pycqa"
-    assert details.repo == "flake8"
+    repo_details = client.repo
+    assert repo_details.organization == "pycqa"
+    assert repo_details.repo == "flake8"
