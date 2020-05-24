@@ -12,3 +12,6 @@ def test_gitlab_provider():
     result = client.repo_stats()
 
     assert result.id == 88891
+    assert "flake8 is a python tool that glues together pep8" in result.description
+    assert result.stars == 364
+    assert result.forks == 178

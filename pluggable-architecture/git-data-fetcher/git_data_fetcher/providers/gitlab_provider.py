@@ -23,6 +23,7 @@ class GitLabProvider(BaseProvider):
 
         return RepoStatistics(
             id=data["id"],
+            description=data["description"],
             stars=data["star_count"],
             forks=data["forks_count"],
             open_issues=None,  # =data["open_issues_count"],

@@ -21,6 +21,7 @@ class GitHubProvider(BaseProvider):
 
         return RepoStatistics(
             id=data["id"],
+            description=data["description"],
             stars=data["stargazers_count"],
             forks=data["forks"],
             open_issues=data["open_issues"],

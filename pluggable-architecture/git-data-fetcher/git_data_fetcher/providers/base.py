@@ -4,6 +4,7 @@ from typing import NamedTuple
 
 class RepoStatistics(NamedTuple):
     id: int
+    description: str
     stars: int
     forks: int
     open_issues: int

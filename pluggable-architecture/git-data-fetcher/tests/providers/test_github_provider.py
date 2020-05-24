@@ -12,6 +12,7 @@ def test_github_provider():
     result = client.repo_stats()
 
     assert result.id == 158856915
+    assert result.description == "The Chicago Python Community Engagement Slack bot"
     assert result.stars == 54
     assert result.forks == 23
     assert result.open_issues == 35
