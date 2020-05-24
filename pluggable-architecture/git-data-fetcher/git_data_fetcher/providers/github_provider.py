@@ -8,8 +8,6 @@ BASE_URL = "https://api.github.com"
 # number PRs
 # open_issues_count: 38,
 # TODO create API token and sign in
-# TODO language
-# TODO license
 
 
 class GitHubProvider(BaseProvider):

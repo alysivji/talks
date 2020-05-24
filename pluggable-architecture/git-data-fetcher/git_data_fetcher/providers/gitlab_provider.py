@@ -14,6 +14,11 @@ BASE_URL = "https://gitlab.com/api/v4"
 
 
 class GitLabProvider(BaseProvider):
+    """GitLab Provider
+
+    API Docs: https://docs.gitlab.com/ee/api/README.html
+    """
+
     def repo_stats(self) -> RepoStatistics:
         # TODO error checking
         encoded_repo = quote_plus(str(self.repo))
