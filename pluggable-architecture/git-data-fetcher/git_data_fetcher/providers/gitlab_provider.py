@@ -4,7 +4,15 @@ from urllib.parse import quote_plus
 import requests
 from .base import BaseProvider
 
+# https://gitlab.com/api/v4/projects/pycqa%2Fflake8
 BASE_URL = "https://gitlab.com/api/v4/"
+# number PRs
+# number open issues
+# number of stars
+# number of forks
+# star_count: 364,
+# forks_count: 178,
+# open_issues_count: 38,
 
 
 class GitLabProvider(BaseProvider):
