@@ -1,0 +1,14 @@
+import pytest
+
+from git_data_fetcher.download import RepoDetails
+from git_data_fetcher.providers.github_provider import GitHubProvider
+
+
+@pytest.mark.vcr()
+def test_github_provider():
+    repo = RepoDetails(organization="busy-beaver-dev", repo="busy-beaver")
+    client = GitHubProvider(repo)
+
+    result = client.repo_stats()
+
+    assert result.id == 158856915

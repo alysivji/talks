@@ -5,7 +5,7 @@ class RepoStatistics(NamedTuple):
     id: int
     stars: int
     forks: int
-    # open_issues: int
+    open_issues: int = None
 
 
 class BaseProvider:

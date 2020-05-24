@@ -3,10 +3,11 @@ import requests
 from .base import BaseProvider, RepoStatistics
 
 # https://gitlab.com/api/v4/projects/pycqa%2Fflake8
-BASE_URL = "https://gitlab.com/api/v4/"
+BASE_URL = "https://gitlab.com/api/v4"
 # number PRs
 # open_issues_count: 38,
 # TODO create API token and sign in
+# TODO last_updated_at
 
 
 class GitLabProvider(BaseProvider):
@@ -20,6 +21,6 @@ class GitLabProvider(BaseProvider):
         return RepoStatistics(
             id=data["id"],
             stars=data["star_count"],
-            forks=data["star_count"],
+            forks=data["forks_count"],
             # open_issues=data["open_issues_count"],
         )
