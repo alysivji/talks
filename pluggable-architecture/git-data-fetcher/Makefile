@@ -2,7 +2,7 @@ install:
 	pip install -r requirements.txt
 
 run:
-	python git_data_fetcher/cli.py
+	python cli.py
 
 test:
 	pytest

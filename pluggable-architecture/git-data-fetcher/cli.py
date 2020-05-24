@@ -1,4 +1,5 @@
 import argparse
+from git_data_fetcher.download_data import GitFetcher
 
 
 def parse_args():
@@ -10,10 +11,12 @@ def parse_args():
         help="URL to repository: https://[github/bitbucket/gitlab].com/repo",
         required=True,
     )
-    return dict(parser.parse_args())
+    return vars(parser.parse_args())
 
 
 if __name__ == "__main__":
     args = parse_args()
+    client = GitFetcher(args["url"])
+    client.get_stats()
 
     print()

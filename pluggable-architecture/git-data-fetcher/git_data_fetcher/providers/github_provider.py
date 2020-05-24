@@ -11,6 +11,10 @@ BASE_URL = "https://api.github.com"
 
 
 class GitHubProvider(BaseProvider):
+    @staticmethod
+    def check(domain):
+        return domain.lower() == "github.com"
+
     def repo_stats(self) -> RepoStatistics:
         # TODO error checking
         project_url = f"{BASE_URL}/repos/{str(self.repo)}"

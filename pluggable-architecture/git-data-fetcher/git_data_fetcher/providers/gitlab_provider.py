@@ -19,6 +19,10 @@ class GitLabProvider(BaseProvider):
     API Docs: https://docs.gitlab.com/ee/api/README.html
     """
 
+    @staticmethod
+    def check(domain):
+        return domain.lower() == "gitlab.com"
+
     def repo_stats(self) -> RepoStatistics:
         # TODO error checking
         encoded_repo = quote_plus(str(self.repo))
