@@ -1,7 +1,7 @@
 import pytest
 
-from git_data_fetcher.download import RepoDetails
-from git_data_fetcher.providers.gitlab_provider import GitLabProvider
+from git_stats.download import RepoDetails
+from git_stats.providers.gitlab_provider import GitLabProvider
 
 
 @pytest.mark.vcr()

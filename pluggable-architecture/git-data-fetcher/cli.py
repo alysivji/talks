@@ -1,5 +1,5 @@
 import argparse
-from git_data_fetcher.download import GitFetcher
+from git_stats.download import GitFetcher
 
 
 def parse_args():
