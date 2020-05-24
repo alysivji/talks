@@ -1,4 +1,7 @@
+from dateutil.parser import parse as parse_dt
+
 import requests
+
 from .base import BaseProvider, RepoStatistics
 
 BASE_URL = "https://api.github.com"
@@ -10,7 +13,7 @@ BASE_URL = "https://api.github.com"
 
 
 class GitHubProvider(BaseProvider):
-    def repo_stats(self):
+    def repo_stats(self) -> RepoStatistics:
         # TODO error checking
         project_url = f"{BASE_URL}/repos/{str(self.repo)}"
         response = requests.get(project_url)
@@ -21,4 +24,5 @@ class GitHubProvider(BaseProvider):
             stars=data["stargazers_count"],
             forks=data["forks"],
             open_issues=data["open_issues"],
+            last_activity=parse_dt(data["pushed_at"]),
         )
