@@ -4,7 +4,7 @@
 
 > You have 300 characters to sell your talk. This is known as the "elevator pitch". Make it as exciting and enticing as possible.
 
-Chicago Python developed an open-source Slack bot to automate community engagement. We've automated workflows around upcoming events, social media sharing, and providing insights into our members’ side projects.
+Chicago Python developed an open-source Slack bot to increase community engagement. We've automated workflows around upcoming events, social media sharing, and providing insights into our members’ side projects.
 
 I will discuss our experience in building a bot for our community by our community.
 
@@ -22,7 +22,7 @@ The Chicago Python Users Group (ChiPy) is one of the largest Python communities 
 
 In 2019, ChiPy created an open-source Slack bot to automate workflows to increase community engagement. Users can find information about upcoming events; view feeds from our social media channels; and gain insights into other members’ side projects. An open-source community has developed around Busy Beaver with developers from around the world making contributions to our custom application!
 
-This talk will introduce Busy Beaver; briefly dig into the project's architecture and code; examine the future roadmap of the project; and discuss the challenges of building a project in public.
+This talk will introduce Busy Beaver and discuss why we created a custom integration. We will dig into the product development process, conduct a retrospective, and examine the future roadmap of the project.
 
 ### Outline
 
@@ -42,6 +42,11 @@ This talk will introduce Busy Beaver; briefly dig into the project's architectur
   - What went well
   - What did not go well
   - What can we improve going forward
+- Future Roadmap (5 minutes)
+  - Putting on our product and community hats
+  - Multitenancy for all features
+  - Automation around new installation
+  - Better onboarding experience
 - Closing (5 minutes)
   - Lessons Learned
   - Building community is difficult, automate what you can
