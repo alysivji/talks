@@ -5,9 +5,6 @@ import requests
 from .base import BaseProvider, RepoStatistics
 
 BASE_URL = "https://api.github.com"
-# number PRs
-# open_issues_count: 38,
-# TODO create API token and sign in
 
 
 class GitHubProvider(BaseProvider):
@@ -16,7 +13,6 @@ class GitHubProvider(BaseProvider):
         return domain.lower() == "github.com"
 
     def repo_stats(self) -> RepoStatistics:
-        # TODO error checking
         project_url = f"{BASE_URL}/repos/{str(self.repo)}"
         response = requests.get(project_url)
         data = response.json()

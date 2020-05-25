@@ -1,0 +1,78 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://api.bitbucket.org/2.0/repositories/tutorials/tutorials.bitbucket.org
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA7VXXY+bOBT9KwhpnhqCMd9IVauqT/uyq93uU1VFxpjgxsHUNo2yo/z31TUfIZNR
+        O2knbyHgc7g+59xrHl1N927huM3WXTnugZWaGwZ/wGVD9ObAd9wtHKN6tnLcvucV3H3M8xSRvEw8
+        XGWJFwVh7WVxHHsVyVhAKGJxhE+AIXi7027hPLoHYmjD1HDRKFZbXmM6Xfg+6fi65Kbs6Y6ZtVRb
+        H6+Rr1gnNTdScaZ908MPIha/niyZGU4rxy0VaWnD7kinWK39mQY4Ddnem89SABeV+z03d6SbCCyZ
+        kC3Y4vOj+1S5S9V+KhJ4oiV767EGxHdPK+eMqnVT+H6zff8bsFo37unLynE1E2CyM7olfCW3wXu7
+        WvaKQi334fC1opanMXvxLMut2wQvTb4TQ9TzcEfDFhlUw6P+Q/rhJYF/SD++M/ptioMoGF5byjH8
+        T13zKnlvLDyUVEt1T6IBHogqeWiFJNUdc3emAEKudX/PJjbiA1XXC6HYt57pe7aVC5bTJN6mk4LT
+        I4wEIoQ8bIYtB2l7ITZTx7ipvcwPX44J6ECdkl8ZNTYD5wl1Y784gOk6Qi9m04is/b/+/vOPX8vu
+        jOtfg/0ouxfjk1Aq+9b4vWZqMTovEP0x3iGG2AZxFEZJiHDsWlnMsbNdetqrReP+tzXcCFY5i3s7
+        ZtWzZS9PCkGEa1QmxEtoVXtRHeRemee1V1EaszgjWY3Ck90oQdptT7bjaNgLn2oNYlHFiGHVRrZg
+        D4yCwAuwh9GnICnCuEDJOsoQivAbhAqEYMWe8HYYzFbhqRJwUbUZbyzKqVhNemHsS8ybb1dq0W+B
+        dLYSoE9w50cXWPOTzqgArHhVi/2aqeyqF7tnLm1x2Jrc8pxX5nMhTbOsxBXxypRgL0IR9XKGE68K
+        a5SmcZwilA5qw+Fybm7j8VIeWjYMporrTpDjdfCX23oj6+8IATHSMAdfUuBD+vEWkV6O6t+m4tQD
+        Zk9OEg4BbzndXTXWpcGhaLgecTb27N/2QkDX7rvqIpUYeSjwcPYJJQXKC4zWMQ4Ris6p1Pw/yHaS
+        x2kUoXCRpPmcfwS6q9Bd92+uN53i34n9VqmJ0PBxUjFNFe8MHxrFP9wwp5bKmcoPUODUXDDtnv4H
+        iSUUhvgMAAA=
+    headers:
+      Cache-Control:
+      - max-age=900
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      DC-Location:
+      - ash1
+      Date:
+      - Mon, 25 May 2020 18:24:08 GMT
+      ETag:
+      - '"gz[4e7fa036a92389eb0d54131f6cdcf454]"'
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Authorization, Accept-Encoding
+      X-Accepted-OAuth-Scopes:
+      - repository
+      X-Cache-Info:
+      - caching
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Render-Time:
+      - '0.0376708507538'
+      X-Request-Count:
+      - '211'
+      X-Served-By:
+      - app-1142
+      X-Static-Version:
+      - 93a876ae226c
+      X-Version:
+      - 93a876ae226c
+    status:
+      code: 200
+      message: OK
+version: 1

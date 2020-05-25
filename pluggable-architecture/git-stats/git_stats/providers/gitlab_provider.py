@@ -5,12 +5,7 @@ import requests
 
 from .base import BaseProvider, RepoStatistics
 
-# https://gitlab.com/api/v4/projects/pycqa%2Fflake8
 BASE_URL = "https://gitlab.com/api/v4"
-# number PRs
-# open_issues_count: 38,
-# TODO create API token and sign in
-# TODO last_updated_at
 
 
 class GitLabProvider(BaseProvider):
@@ -24,7 +19,6 @@ class GitLabProvider(BaseProvider):
         return domain.lower() == "gitlab.com"
 
     def repo_stats(self) -> RepoStatistics:
-        # TODO error checking
         encoded_repo = quote_plus(str(self.repo))
         project_url = f"{BASE_URL}/projects/{encoded_repo}"
         response = requests.get(project_url)

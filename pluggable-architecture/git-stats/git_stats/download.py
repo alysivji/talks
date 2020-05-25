@@ -1,10 +1,11 @@
 from typing import NamedTuple
 from urllib.parse import urlparse
 
+from .providers.bitbucket_provider import BitBucketProvider
 from .providers.github_provider import GitHubProvider
 from .providers.gitlab_provider import GitLabProvider
 
-providers = [GitHubProvider, GitLabProvider]
+providers = [BitBucketProvider, GitHubProvider, GitLabProvider]
 
 
 class RepoDetails(NamedTuple):
