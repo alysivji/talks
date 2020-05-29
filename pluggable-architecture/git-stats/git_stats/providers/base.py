@@ -18,5 +18,8 @@ class BaseProvider:
     def __repr__(self):
         return f"<{self.__class__.__name__}>"
 
-    def get_commits(self) -> RepoStatistics:
+
+    # TODO add check
+
+    def repo_stats(self) -> RepoStatistics:
         pass
