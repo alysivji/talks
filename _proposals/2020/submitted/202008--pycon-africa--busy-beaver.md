@@ -6,7 +6,7 @@
 
 Chicago Python developed an open-source Slack bot to increase community engagement. We've automated workflows around upcoming events, social media sharing, and providing insights into our members’ side projects.
 
-I will discuss our experience in building a bot for our community by our community.
+I will discuss our experience building a bot for our community by our community.
 
 ## Talk Format
 
