@@ -1,6 +1,6 @@
 import argparse
 from git_stats.download import GitFetcher
-from git_stats.providers.base import RepoStatistics
+from git_stats.plugins.base import RepoStatistics
 
 
 def parse_args():

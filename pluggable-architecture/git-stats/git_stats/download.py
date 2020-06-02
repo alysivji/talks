@@ -1,11 +1,11 @@
 from typing import NamedTuple
 from urllib.parse import urlparse
 
-from .providers.bitbucket_provider import BitBucketProvider
-from .providers.github_provider import GitHubProvider
-from .providers.gitlab_provider import GitLabProvider
+from .plugins.bitbucket_plugin import BitBucketPlugin
+from .plugins.github_plugin import GitHubPlugin
+from .plugins.gitlab_plugin import GitLabPlugin
 
-providers = [BitBucketProvider, GitHubProvider, GitLabProvider]
+plugins = [BitBucketPlugin, GitHubPlugin, GitLabPlugin]
 
 
 class RepoDetails(NamedTuple):
@@ -19,9 +19,9 @@ class RepoDetails(NamedTuple):
 class GitFetcher:
     def __init__(self, url):
         domain, self.repo = self._parse_url(url)
-        for provider in providers:
-            if provider.check(domain):
-                self.provider = provider(self.repo)
+        for plugin in plugins:
+            if plugin.check(domain):
+                self.plugin = plugin(self.repo)
                 return
         else:
             raise ValueError(f"{domain} not supported")
@@ -32,4 +32,4 @@ class GitFetcher:
         return url_parts.netloc, RepoDetails(organization=parts[1], repo=parts[2])
 
     def get_stats(self):
-        return self.provider.repo_stats()
+        return self.plugin.repo_stats()

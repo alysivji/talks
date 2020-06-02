@@ -11,6 +11,49 @@ interactions:
       User-Agent:
       - python-requests/2.23.0
     method: GET
+    uri: https://gitlab.com/api/v4//projects/pycqa%2Fflake8
+  response:
+    body:
+      string: ''
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5988b3fa3e0ac53c-ORD
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Date:
+      - Sun, 24 May 2020 17:23:11 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Location:
+      - https://gitlab.com/api/v4/projects/pycqa%2Fflake8
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d0be5c0aafce6051bab6817e6d8468ffa1590340991; expires=Tue, 23-Jun-20
+        17:23:11 GMT; path=/; domain=.gitlab.com; HttpOnly; SameSite=Lax; Secure
+      cf-request-id:
+      - 02e94ed0670000c53c2ba5d200000001
+    status:
+      code: 308
+      message: Permanent Redirect
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - __cfduid=d0be5c0aafce6051bab6817e6d8468ffa1590340991
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
     uri: https://gitlab.com/api/v4/projects/pycqa%2Fflake8
   response:
     body:
@@ -29,7 +72,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 5988e4dc2a4d0388-ORD
+      - 5988b3fadf28c53c-ORD
       Cache-Control:
       - max-age=0, private, must-revalidate
       Connection:
@@ -39,13 +82,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 24 May 2020 17:56:33 GMT
+      - Sun, 24 May 2020 17:23:11 GMT
       Etag:
       - W/"514497b691d9baa7d64eb6a0b8278ba8"
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       GitLab-LB:
-      - fe-01-lb-gprd
+      - fe-10-lb-gprd
       GitLab-SV:
       - localhost
       RateLimit-Limit:
@@ -55,16 +98,13 @@ interactions:
       RateLimit-Remaining:
       - '599'
       RateLimit-Reset:
-      - '1590343053'
+      - '1590341051'
       RateLimit-ResetTime:
-      - Sun, 24 May 2020 17:57:33 GMT
+      - Sun, 24 May 2020 17:24:11 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - cloudflare
-      Set-Cookie:
-      - __cfduid=d1c89023e8631f6f356af15dce71e86ca1590342993; expires=Tue, 23-Jun-20
-        17:56:33 GMT; path=/; domain=.gitlab.com; HttpOnly; SameSite=Lax; Secure
       Strict-Transport-Security:
       - max-age=31536000
       Transfer-Encoding:
@@ -76,11 +116,11 @@ interactions:
       X-Frame-Options:
       - SAMEORIGIN
       X-Request-Id:
-      - epkl0e2zt61
+      - pZ2FTegW8l7
       X-Runtime:
-      - '0.041321'
+      - '0.037921'
       cf-request-id:
-      - 02e96d5d9d00000388c19c9200000001
+      - 02e94ed0c70000c53c2ba60200000001
     status:
       code: 200
       message: OK

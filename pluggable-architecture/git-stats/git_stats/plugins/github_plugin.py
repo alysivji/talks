@@ -2,12 +2,12 @@ from dateutil.parser import parse as parse_dt
 
 import requests
 
-from .base import BaseProvider, RepoStatistics
+from .base import BasePlugin, RepoStatistics
 
 BASE_URL = "https://api.github.com"
 
 
-class GitHubProvider(BaseProvider):
+class GitHubPlugin(BasePlugin):
     @staticmethod
     def check(domain):
         return domain.lower() == "github.com"

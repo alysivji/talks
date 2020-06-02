@@ -1,13 +1,13 @@
 import pytest
 
 from git_stats.download import RepoDetails
-from git_stats.providers.bitbucket_provider import BitBucketProvider
+from git_stats.plugins.bitbucket_plugin import BitBucketPlugin
 
 
 @pytest.mark.vcr()
-def test_bitbucket_provider():
+def test_bitbucket_plugin():
     repo = RepoDetails(organization="tutorials", repo="tutorials.bitbucket.org")
-    client = BitBucketProvider(repo)
+    client = BitBucketPlugin(repo)
 
     result = client.repo_stats()
 

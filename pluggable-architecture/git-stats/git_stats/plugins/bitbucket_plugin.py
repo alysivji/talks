@@ -2,12 +2,12 @@ from dateutil.parser import parse as parse_dt
 
 import requests
 
-from .base import BaseProvider, RepoStatistics
+from .base import BasePlugin, RepoStatistics
 
 BASE_URL = "https://api.bitbucket.org/2.0"
 
 
-class BitBucketProvider(BaseProvider):
+class BitBucketPlugin(BasePlugin):
     """BitBucket Provider
 
     API Docs: https://confluence.atlassian.com/bitbucket/rest-apis-222724129.html

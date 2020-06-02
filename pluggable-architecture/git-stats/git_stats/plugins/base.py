@@ -11,7 +11,7 @@ class RepoStatistics(NamedTuple):
     last_activity: datetime
 
 
-class BaseProvider:
+class BasePlugin:
     def __init__(self, repo):
         self.repo = repo
 

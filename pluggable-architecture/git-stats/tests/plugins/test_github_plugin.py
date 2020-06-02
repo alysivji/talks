@@ -1,13 +1,13 @@
 import pytest
 
 from git_stats.download import RepoDetails
-from git_stats.providers.github_provider import GitHubProvider
+from git_stats.plugins.github_plugin import GitHubPlugin
 
 
 @pytest.mark.vcr()
-def test_github_provider():
+def test_github_plugin():
     repo = RepoDetails(organization="busy-beaver-dev", repo="busy-beaver")
-    client = GitHubProvider(repo)
+    client = GitHubPlugin(repo)
 
     result = client.repo_stats()
 

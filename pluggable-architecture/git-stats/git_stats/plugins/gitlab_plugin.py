@@ -3,12 +3,12 @@ from urllib.parse import quote_plus
 
 import requests
 
-from .base import BaseProvider, RepoStatistics
+from .base import BasePlugin, RepoStatistics
 
 BASE_URL = "https://gitlab.com/api/v4"
 
 
-class GitLabProvider(BaseProvider):
+class GitLabPlugin(BasePlugin):
     """GitLab Provider
 
     API Docs: https://docs.gitlab.com/ee/api/README.html

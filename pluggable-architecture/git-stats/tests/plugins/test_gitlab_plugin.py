@@ -1,13 +1,13 @@
 import pytest
 
 from git_stats.download import RepoDetails
-from git_stats.providers.gitlab_provider import GitLabProvider
+from git_stats.plugins.gitlab_plugin import GitLabPlugin
 
 
 @pytest.mark.vcr()
-def test_gitlab_provider():
+def test_gitlab_plugin():
     repo = RepoDetails(organization="pycqa", repo="flake8")
-    client = GitLabProvider(repo)
+    client = GitLabPlugin(repo)
 
     result = client.repo_stats()
 
