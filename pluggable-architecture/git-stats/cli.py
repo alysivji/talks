@@ -1,5 +1,5 @@
 import argparse
-from git_stats.download import GitFetcher
+from git_stats.download import GitApiClient
 from git_stats.plugins.base import RepoStatistics
 
 
@@ -25,7 +25,7 @@ def format_output(stats: RepoStatistics):
 
 if __name__ == "__main__":
     args = parse_args()
-    client = GitFetcher(args["url"])
+    client = GitApiClient(args["url"])
     stats = client.get_stats()
     format_output(stats)
     print()

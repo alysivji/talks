@@ -2,7 +2,8 @@ from dateutil.parser import parse as parse_dt
 
 import requests
 
-from .base import BasePlugin, RepoStatistics
+from .base import BasePlugin
+from git_stats.dto import RepoStatistics
 
 BASE_URL = "https://api.github.com"
 

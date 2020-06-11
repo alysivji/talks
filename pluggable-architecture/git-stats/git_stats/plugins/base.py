@@ -1,14 +1,4 @@
-from datetime import datetime
-from typing import NamedTuple
-
-
-class RepoStatistics(NamedTuple):
-    id: int
-    description: str
-    stars: int
-    forks: int
-    open_issues: int
-    last_activity: datetime
+from git_stats.download import RepoStatistics
 
 
 class BasePlugin:
@@ -18,8 +8,9 @@ class BasePlugin:
     def __repr__(self):
         return f"<{self.__class__.__name__}>"
 
-
-    # TODO add check
+    @staticmethod
+    def check(domain) -> bool:
+        raise NotImplementedError
 
     def repo_stats(self) -> RepoStatistics:
-        pass
+        raise NotImplementedError

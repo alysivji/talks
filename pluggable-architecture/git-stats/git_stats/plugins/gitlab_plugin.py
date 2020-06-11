@@ -3,7 +3,8 @@ from urllib.parse import quote_plus
 
 import requests
 
-from .base import BasePlugin, RepoStatistics
+from .base import BasePlugin
+from git_stats.dto import RepoStatistics
 
 BASE_URL = "https://gitlab.com/api/v4"
 
@@ -29,6 +30,6 @@ class GitLabPlugin(BasePlugin):
             description=data["description"],
             stars=data["star_count"],
             forks=data["forks_count"],
-            open_issues=None,  # =data["open_issues_count"],
+            open_issues=None,
             last_activity=parse_dt(data["last_activity_at"]),
         )
