@@ -1,4 +1,4 @@
-# Design Patterns: Facade Pattern
+# Everyday Design Patterns: Facade Pattern
 
 ## Talk Description
 
