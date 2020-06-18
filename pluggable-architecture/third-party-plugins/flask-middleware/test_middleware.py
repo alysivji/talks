@@ -30,7 +30,6 @@ def test_middleware(client):
     result = client.get("/")
     assert len(result.data) > 0
 
-
 def test_middleware_with_request_id(client):
     result = client.get("/", headers={"X-Request-ID": "abc"})
     assert result.data == b"abc"
