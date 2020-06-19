@@ -1,6 +1,6 @@
 asgiref==3.2.7
 attrs==19.3.0
-Django==3.0.6
+Django==3.0.7
 more-itertools==8.3.0
 packaging==20.4
 pluggy==0.13.1
