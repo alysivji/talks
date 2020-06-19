@@ -1,4 +1,3 @@
-import json
 import uuid
 
 from apispec import APISpec
@@ -7,7 +6,6 @@ from apispec_webframeworks.flask import FlaskPlugin
 from flask import Flask
 from marshmallow import Schema, fields
 
-
 # Create an APISpec
 spec = APISpec(
     title="Swagger Petstore",
@@ -15,6 +13,7 @@ spec = APISpec(
     openapi_version="3.0.2",
     plugins=[FlaskPlugin(), MarshmallowPlugin()],
 )
+
 
 # Optional marshmallow support
 class CategorySchema(Schema):
@@ -56,6 +55,5 @@ def random_pet():
 with app.test_request_context():
     spec.path(view=random_pet)
 
-
 # Print JSON
-print(json.dumps(spec.to_dict(), indent=2))
+print(spec.to_yaml())
