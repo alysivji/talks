@@ -1,0 +1,127 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://gitlab.com/api/v4//projects/pycqa%2Fflake8
+  response:
+    body:
+      string: ''
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5988b3fa3e0ac53c-ORD
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Date:
+      - Sun, 24 May 2020 17:23:11 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Location:
+      - https://gitlab.com/api/v4/projects/pycqa%2Fflake8
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d0be5c0aafce6051bab6817e6d8468ffa1590340991; expires=Tue, 23-Jun-20
+        17:23:11 GMT; path=/; domain=.gitlab.com; HttpOnly; SameSite=Lax; Secure
+      cf-request-id:
+      - 02e94ed0670000c53c2ba5d200000001
+    status:
+      code: 308
+      message: Permanent Redirect
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - __cfduid=d0be5c0aafce6051bab6817e6d8468ffa1590340991
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://gitlab.com/api/v4/projects/pycqa%2Fflake8
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4xTwW7bMAz9FYFn2bKdrE18WrH1OGAbeuowCIys2FpkS5HoFkbRfx9kp2nQDuhu
+        pPQe+fhEPYFpoN5sNtuSQ6OjCsaTcQPUsLd40BtmIkPmJ+rcwMg5y6hDYq0ddWTkWk2dDsxrv+HM
+        TzMnctYrhTvNGQ4No86EJvMYaGLejq0ZEpGpTqsDo06zSJPVM/Q4ojU0Mbdn0fX6pa1yjc6Bw4C9
+        Pgs75fLRUCdTFD2qdP19+vLjhgl2hnmk7pKW8vc0P6kjijNIBY2kG4kENVRFuc6KbVau7spVvSrq
+        qsjLorqH5NkeR0tyF3BQqU2PkXQADoSttCYS1L8AB7RTNBE4LNYkGdrPahZLUjSlQWc35mwxcw6T
+        DcDh5A9wWFC/OcTYyTFYSU4G7R3U0Br63BqyuMuV6+vLufLWEHDoiPwbUjqKtRCvRPEP4qPeJd7H
+        eOAQNDa9/j+4yMTOup1YvBM/b2++frvNQ0w98QEJw1JnGK1Ns2OQyo0DQb26WnPYu3CILyfl9YaD
+        xUgSFZkHQ9PLG1ZFVnzKquququrVti63+XZd3J/26LQGT/N/uCqvi/V53+aFet2jWThwOJihSXYH
+        N3rgsB+tlW8gHoMeSKaSi/TLYUCM3jpsoshEnCLpXsy1xAISs4jFpiweRww6s651Ujk/5X98+9F7
+        zMXiUgCen/8CAAD//wMAGWhTYOoDAAA=
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5988b3fadf28c53c-ORD
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 May 2020 17:23:11 GMT
+      Etag:
+      - W/"514497b691d9baa7d64eb6a0b8278ba8"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      GitLab-LB:
+      - fe-10-lb-gprd
+      GitLab-SV:
+      - localhost
+      RateLimit-Limit:
+      - '600'
+      RateLimit-Observed:
+      - '1'
+      RateLimit-Remaining:
+      - '599'
+      RateLimit-Reset:
+      - '1590341051'
+      RateLimit-ResetTime:
+      - Sun, 24 May 2020 17:24:11 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - pZ2FTegW8l7
+      X-Runtime:
+      - '0.037921'
+      cf-request-id:
+      - 02e94ed0c70000c53c2ba60200000001
+    status:
+      code: 200
+      message: OK
+version: 1
