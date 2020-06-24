@@ -15,7 +15,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
-|Jul 24|Pluggable Architecture|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)||
+|Jul 25|Object-Oriented Python with `functools.partial`|[PyOhio](https://www.pyohio.org/2020/)||
+|Jul 23|Pluggable Architecture|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)||
 |Jun 19|Pluggable Architecture|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|[Slides](http://bit.ly/write-a-plugin)|
 |Apr 25|Life Without `pip install`|[Python Pizza Remote](https://remote.python.pizza/)|[Slides](http://bit.ly/life-without-pip)|
 |Apr 18|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon](https://us.pycon.org/2020/schedule/presentation/87/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://www.youtube.com/watch?v=P0kfKqMHioQ)|
