@@ -13,7 +13,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ### 2020
 
-| Date | Topic | Location | Links |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
 |Jul 25|Object-Oriented Python with `functools.partial`|[PyOhio](https://www.pyohio.org/2020/)||
 |Jul 23|Pluggable Architecture|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)||
@@ -26,7 +26,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ### 2019
 
-| Date | Topic | Location | Links |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links |
 | :---: | :---- | :------- | :---: |
 |Oct 30|Life Without `pip install`|[ChiPy](https://www.meetup.com/_ChiPy_/events/264947364/) ⚡|[Slides](http://bit.ly/life-without-pip)|
 |Oct 3|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon Balkan](https://pyconbalkan.com/speakers/2019/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://youtu.be/p3OqOkt8GBY?t=18328)|
@@ -48,7 +48,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ## 2018
 
-| Date | Topic | Location | Links |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
 |Dec 11|[Community First: An Overview of the Python Ecosystem](https://github.com/alysivji/talks/tree/master/python-101)|[Chicago Veteran Developers](https://www.meetup.com/Chicago-Veteran-Developers/events/256242307/)|[Slides](http://bit.ly/python-ecosystem-overview)|
 |Nov 11|Interactive Introspection with `ls`|[PyCon Canada](https://2018.pycon.ca/) ⚡|[Slides](http://bit.ly/python-ls)|
@@ -65,7 +65,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ### 2017
 
-| Date | Topic | Location | Links |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links |
 | :--: | :---- | :------- | :---: |
 |Oct 13|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[ChiPy](https://www.meetup.com/_ChiPy_/events/243214965/)|[Slides](http://bit.ly/docker-for-data-science) / [Video](https://www.youtube.com/watch?v=oO8n3y23b6M)|
 |Sep 16|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[Denver Data Science Day](http://denverdatascienceday.com/)|[Slides](http://bit.ly/docker-for-data-science)|
