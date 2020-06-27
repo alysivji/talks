@@ -13,10 +13,12 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ### 2020
 
-| &nbsp;&nbsp;Date&nbsp;&nbsp;&nbsp; | Topic | Location | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| :---: | :---- | :------- | :---: |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :--- | :---- | :------- | :--- |
+|Aug 8|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/)||
 |Jul 25|Object-Oriented Python with `functools.partial`|[PyOhio](https://www.pyohio.org/2020/)||
 |Jul 23|Pluggable Architecture|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)||
+|Jul 8|[Docker for Data Science](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[SF Python](https://www.meetup.com/sfpython/events/xkwxvqybckblb/)|[Slides](http://bit.ly/docker-for-data-science)|
 |Jun 19|Pluggable Architecture|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|[Slides](http://bit.ly/write-a-plugin)|
 |Apr 25|Life Without `pip install`|[Python Pizza Remote](https://remote.python.pizza/)|[Slides](http://bit.ly/life-without-pip)|
 |Apr 18|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon](https://us.pycon.org/2020/schedule/presentation/87/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://www.youtube.com/watch?v=P0kfKqMHioQ)|
@@ -26,8 +28,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ### 2019
 
-| &nbsp;&nbsp;Date&nbsp;&nbsp;&nbsp; | Topic | Location | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| :---: | :---- | :------- | :---: |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :--- | :---- | :------- | :--- |
 |Oct 30|Life Without `pip install`|[ChiPy](https://www.meetup.com/_ChiPy_/events/264947364/) ⚡|[Slides](http://bit.ly/life-without-pip)|
 |Oct 3|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon Balkan](https://pyconbalkan.com/speakers/2019/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://youtu.be/p3OqOkt8GBY?t=18328)|
 |Sep 26|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[ChiPy Lunch Break SIG](https://www.meetup.com/_ChiPy_/events/ljpjfryzmbjc/)|[Slides](http://bit.ly/code-smell-if-statements)|
@@ -48,8 +50,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ## 2018
 
-| &nbsp;&nbsp;Date&nbsp;&nbsp;&nbsp; | Topic | Location | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| :---: | :---- | :------- | :---: |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :--- | :---- | :------- | :--- |
 |Dec 11|[Community First: An Overview of the Python Ecosystem](https://github.com/alysivji/talks/tree/master/python-101)|[Chicago Veteran Developers](https://www.meetup.com/Chicago-Veteran-Developers/events/256242307/)|[Slides](http://bit.ly/python-ecosystem-overview)|
 |Nov 11|Interactive Introspection with `ls`|[PyCon Canada](https://2018.pycon.ca/) ⚡|[Slides](http://bit.ly/python-ls)|
 |Oct 25|[Testing from the Ground Up](https://github.com/alysivji/talks/tree/master/testing-from-the-ground-up)|[ChiPy WebDev SIG](https://www.meetup.com/_ChiPy_/events/254890457/)|[Slides](http://bit.ly/testing-from-the-ground-up)|
@@ -65,8 +67,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ### 2017
 
-| &nbsp;&nbsp;Date&nbsp;&nbsp;&nbsp; | Topic | Location | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| :---: | :---- | :------- | :---: |
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :--- | :---- | :------- | :--- |
 |Oct 13|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[ChiPy](https://www.meetup.com/_ChiPy_/events/243214965/)|[Slides](http://bit.ly/docker-for-data-science) / [Video](https://www.youtube.com/watch?v=oO8n3y23b6M)|
 |Sep 16|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[Denver Data Science Day](http://denverdatascienceday.com/)|[Slides](http://bit.ly/docker-for-data-science)|
 |Jul 30|[Data Science Workflows Using Docker Containers](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[PyOhio](https://pyohio.org/schedule/presentation/303/)|[Slides](http://bit.ly/docker-for-data-science) / [Video](https://www.youtube.com/watch?v=3CKVOPPqW9Q)|
