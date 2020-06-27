@@ -14,7 +14,7 @@ WORKDIR /app
 # Install the required libraries
 RUN conda install jupyter -y && \
     conda install pandas -y && \
-    conda clean -y -all
+    conda clean -y --all
 
 # Make port 8888 available to the world outside this container
 EXPOSE 8888
