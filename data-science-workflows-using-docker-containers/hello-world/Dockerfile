@@ -1,7 +1,7 @@
 # EACH COMMAND CREATES A NEW IMAGE LAYER
 
 # Use latest Python runtime as base image
-FROM python:3.6.5-alpine3.7
+FROM python:3.8.3-alpine
 
 # Set the working directory to /app and copy current dir
 WORKDIR /app
