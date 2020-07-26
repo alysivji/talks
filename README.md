@@ -16,8 +16,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
 |Oct 24|Everyday Design Patterns: Facade Pattern|PyTexas||
-|Aug 6|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/speakers/aly-sivji#talk)|[Slides]|
-|Jul 25|Object-Oriented Python with `functools.partial`|[PyOhio](https://www.pyohio.org/2020/events/talks/object-oriented-python-with-functools-partial)|[Slides] / [Video](https://www.youtube.com/watch?v=pxlVTQ_pLNE)|
+|Aug 6|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/speakers/aly-sivji#talk)||
+|Jul 25|Object-Oriented Python with `functools.partial`|[PyOhio](https://www.pyohio.org/2020/events/talks/object-oriented-python-with-functools-partial)|[Slides](https://bit.ly/oop-with-functools-partial) / [Video](https://www.youtube.com/watch?v=pxlVTQ_pLNE)|
 |Jul 23|Pluggable Architecture|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|
 |Jul 8|[Docker for Data Science](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[SF Python](https://www.meetup.com/sfpython/events/xkwxvqybckblb/)|[Slides](http://bit.ly/docker-for-data-science)|
 |Jun 19|Pluggable Architecture|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|[Slides](http://bit.ly/write-a-plugin)|
