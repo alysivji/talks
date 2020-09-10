@@ -11,16 +11,19 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ## Speaking Engagements
 
+⚡ indicates lightning talk
+
 ### 2020
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Oct 24|Everyday Design Patterns: Facade Pattern|PyTexas||
-|Aug 6|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/speakers/aly-sivji#talk)||
-|Jul 25|Object-Oriented Python with `functools.partial`|[PyOhio](https://www.pyohio.org/2020/events/talks/object-oriented-python-with-functools-partial)|[Slides](https://bit.ly/oop-with-functools-partial) / [Video](https://www.youtube.com/watch?v=pxlVTQ_pLNE)|
-|Jul 23|Pluggable Architecture|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|
+|Oct 24|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-patterns)|PyTexas||
+|Sep 10|Fun with Finite State Machines|ChiPy||
+|Aug 6|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/speakers/aly-sivji#talk)|[Slides](http://bit.ly/busy-beaver-bot)|
+|Jul 25|[Object-Oriented Python with `functools.partial`](https://github.com/alysivji/talks/tree/master/lightning-talks/object-oriented-python-with-functools-partial)|[PyOhio](https://www.pyohio.org/2020/events/talks/object-oriented-python-with-functools-partial)|[Slides](https://bit.ly/oop-with-functools-partial) / [Video](https://www.youtube.com/watch?v=pxlVTQ_pLNE)|
+|Jul 23|[Pluggable Architecture](https://github.com/alysivji/talks/tree/master/pluggable-architecture)|[EuroPython](https://ep2020.europython.eu/talks/4yCL9yy-pluggable-architecture/)|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|
 |Jul 8|[Docker for Data Science](https://github.com/alysivji/talks/tree/master/data-science-workflows-using-docker-containers)|[SF Python](https://www.meetup.com/sfpython/events/xkwxvqybckblb/)|[Slides](http://bit.ly/docker-for-data-science)|
-|Jun 19|Pluggable Architecture|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|[Slides](http://bit.ly/write-a-plugin)|
+|Jun 19|[Pluggable Architecture](https://github.com/alysivji/talks/tree/master/pluggable-architecture)|[Python Web Conf](https://2020.pythonwebconf.com/presentations/pluggable-architecture)|[Slides](http://bit.ly/write-a-plugin)|
 |Apr 25|Life Without `pip install`|[Python Pizza Remote](https://remote.python.pizza/)|[Slides](http://bit.ly/life-without-pip)|
 |Apr 18|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon](https://us.pycon.org/2020/schedule/presentation/87/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://www.youtube.com/watch?v=P0kfKqMHioQ)|
 |Mar 7|Life Without `pip install`|[PyTennessee](http://2020.pytennessee.org/) ⚡|[Slides](http://bit.ly/life-without-pip)|
@@ -77,5 +80,3 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 |Jun 8|[A Gentle Introduction to Context Managers](https://github.com/alysivji/talks/tree/master/context-manager-intro)|[ChiPy](https://www.meetup.com/_ChiPy_/events/240015768/)|[Slides](http://bit.ly/context-manager-chipy) / [Video](https://www.youtube.com/watch?v=hy-O0Qpr_Us)|
 |May 21|[Jupyter Notebook Tricks and Tips](https://github.com/alysivji/talks/tree/master/jupyter-notebook-tips-and-tricks)|PyCon Open Space|
 |Apr 28|[Using the Hadoop Ecosystem to Drive Healthcare Innovation](https://github.com/alysivji/talks/tree/master/driving-healthcare-innovation)|[Chicago Value-Based Care Meetup](https://www.meetup.com/Chicago-Technology-For-Value-Based-Healthcare-Meetup/events/238965958/)|[Slides](https://drive.google.com/file/d/0B1-34QnNuY0VQ2RUUDhhSXF1ZUE/view?usp=sharing)
-
-⚡ indicates lightning talk
