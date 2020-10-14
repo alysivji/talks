@@ -18,7 +18,7 @@ Developers spend lots of time wiring third-party packages and APIs into our proj
 
 This talk demonstrates HOWTO use Object-Oriented programming principles to hide complexity and isolate the impact of changes. By using an API version upgrade as our guiding example, we will: walk through a tightly coupled implementation, discuss its limitations, and show how the Facade Pattern improves software design.
 
-The session is geared towards developers of all levels looking for a friendlier approach to Design Patterns. By applying the principles outlined, you will be able to use the Facade pattern to write robust code that is easy to maintain.
+The session is geared towards developers of all levels looking for a friendlier approach to Design Patterns. By applying the principles outlined, you will be able to use the Facade Pattern to write robust code that is easy to maintain.
 
 ### Outline
 
@@ -55,7 +55,7 @@ The session is geared towards developers of all levels looking for a friendlier 
 
 ## Notes
 
-I have given at a local User Group (Chicago Python) and will be presenting at PyTennessee in March. The audience appreciated the use of a real-world code example to help solidify abstract Software Design concepts.
+I have given this talk at a local User Group (Chicago Python) and will be presenting at PyTennessee in March. The audience appreciated the use of a real-world code example to help solidify abstract Software Design concepts.
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyCon Balkan, PyOhio, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 

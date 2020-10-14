@@ -18,7 +18,12 @@ The Chicago Python User Group (ChiPy) is one of the largest tech-focused communi
 
 This talk will introduce Busy Beaver; dig into architecture and code; examine the future roadmap of the project; and discuss the challenges of building a project in public.
 
-## Learn by Doing: Idea to Execution
+## Busy Beaver: Chicago Python's Community Engagement Slack bot
 
-My laptop is a graveyard of half-baked ideas and incomplete projects.
-building an open-source Slack integration for our community by our community
+(PyCon Africa talk)
+
+The Chicago Python Users Group (ChiPy) is one of the largest Python communities in the world with close to 6,000 members! Slack has become our primary way of communicating with our members; the platform has been especially vital during the COVID-19 pandemic.
+
+In 2019, ChiPy created an open-source Slack bot to automate workflows to increase community engagement. Users can find information about upcoming events; view feeds from our social media channels; and gain insights into other members’ side projects. An open-source community has developed around Busy Beaver with developers from around the world making contributions to our custom application!
+
+This talk will introduce Busy Beaver and discuss why we created a custom integration. We will dig into the product development process, conduct a retrospective, and examine the future roadmap of the project

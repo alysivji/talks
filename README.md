@@ -2,7 +2,14 @@
 
 Repo for all my talks (slides and code)
 
-## Background
+<!-- TOC -->
+
+- [Description](#description)
+- [Speaking Engagements](#speaking-engagements)
+
+<!-- /TOC -->
+
+## Description
 
 I have been fortunate to share my knowledge
 by speaking at local User Groups and conferences.
@@ -52,7 +59,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 |Feb 9|[Busy Beaver: Automating Community Engagement with Python](https://github.com/busy-beaver-dev/busy-beaver)|[PyTennessee](http://2019.pytennessee.org/) ⚡|[Slides](http://bit.ly/busy-beaver-lightning)|
 |Jan 10|[Busy Beaver: Increasing Community Engagement with Python](https://github.com/busy-beaver-dev/busy-beaver)|[ChiPy](https://www.meetup.com/_ChiPy_/events/257467417/)|[Slides](http://bit.ly/busy-beaver) / [Video](https://www.youtube.com/watch?v=7dBESR_x7Kc&t=1141s)|
 
-## 2018
+### 2018
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
