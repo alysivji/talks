@@ -24,7 +24,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Oct 24|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-patterns)|PyTexas|[Slides](http://bit.ly/facade-pattern)|
+|Oct 24|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-pattern)|PyTexas|[Slides](http://bit.ly/facade-pattern)|
 |Sep 10|[Fun with Finite State Machines](https://github.com/alysivji/talks/tree/master/lightning-talks/finite-state-machine)|ChiPy|[Slides](http://bit.ly/finite-state-machine) / [Video](https://youtu.be/OBGUlbcHi2k?t=3616)|
 |Aug 6|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/speakers/aly-sivji#talk)|[Slides](http://bit.ly/busy-beaver-bot) / [Video](https://www.youtube.com/watch?v=Mg1l_QFkx1I)|
 |Jul 25|[Object-Oriented Python with `functools.partial`](https://github.com/alysivji/talks/tree/master/lightning-talks/object-oriented-python-with-functools-partial)|[PyOhio](https://www.pyohio.org/2020/events/talks/object-oriented-python-with-functools-partial)|[Slides](https://bit.ly/oop-with-functools-partial) / [Video](https://www.youtube.com/watch?v=pxlVTQ_pLNE)|
@@ -34,8 +34,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 |Apr 25|Life Without `pip install`|[Python Pizza Remote](https://remote.python.pizza/)|[Slides](http://bit.ly/life-without-pip)|
 |Apr 18|[If Statements are a Code Smell](https://github.com/alysivji/talks/tree/master/code-smell--if-statements)|[PyCon](https://us.pycon.org/2020/schedule/presentation/87/)|[Slides](http://bit.ly/code-smell-if-statements) / [Video](https://www.youtube.com/watch?v=P0kfKqMHioQ)|
 |Mar 7|Life Without `pip install`|[PyTennessee](http://2020.pytennessee.org/) ⚡|[Slides](http://bit.ly/life-without-pip)|
-|Mar 7|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-patterns)|[PyTennessee](https://2020.pytennessee.org/talks/everyday-design-patterns-facade-pattern)|[Slides](http://bit.ly/facade-pattern)|
-|Feb 4|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-patterns)|[ChiPy WebDev/DevOps SIG](https://www.meetup.com/_ChiPy_/events/267876935/)|[Slides](http://bit.ly/facade-pattern)|
+|Mar 7|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-pattern)|[PyTennessee](https://2020.pytennessee.org/talks/everyday-design-patterns-facade-pattern)|[Slides](http://bit.ly/facade-pattern)|
+|Feb 4|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-pattern)|[ChiPy WebDev/DevOps SIG](https://www.meetup.com/_ChiPy_/events/267876935/)|[Slides](http://bit.ly/facade-pattern)|
 
 ### 2019
 
