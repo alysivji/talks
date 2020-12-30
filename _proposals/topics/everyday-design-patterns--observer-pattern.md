@@ -10,15 +10,15 @@ Intermediate
 
 ## Elevator Pitch
 
-The Observer Pattern is widely used as it enables developers to write loosely coupled software that is easy to maintain. In this talk, we will dive deep into the Observer Pattern, examine various Python implementations, and design a decorator-based Observer that looks and feels Pythonic.
+The Observer Pattern is used to create loosely coupled components that are easy to maintain. In this talk, we will learn how, when, and why to use this pattern; we will examine a few Python implementations; and, we will design a decorator-based Observer that looks and feels Pythonic.
 
 ## Description
 
-The Observer Pattern enables developers to write loosely coupled code that is easy to maintain. This pattern is widely used in the Python ecosystem: there are implementations in the standard library and in popular packages such as Django and Flask.
+The Observer Pattern enables developers to write loosely coupled code that is easy to maintain. This pattern is widely used in the Python ecosystem: we find implementations in the standard library and in popular packages such as Django and Flask.
 
-This talk will dive deep into the Observer Pattern. We will start with a high-level overview of the pattern. Next, we will examine various implementations of this pattern in the wild. Finally, we will create a decorator-based Observer to dispatch events sent from GitHub via webhooks.
+This talk will dive deep into the Observer Pattern. We will start with a high-level overview of how, when, and why to use the pattern. Next, we will examine various Python implementations of this pattern. Finally, we will create a decorator-based Observer to dynamically dispatch events sent from GitHub webhooks.
 
-The session is geared towards developers of all levels looking for a friendlier approach to Design Patterns. By applying the principles outlined, you will be able to use the Observer Pattern to create loosely coupled systems that are easy to modify and even easier to test.
+The session is geared towards intermediate and advanced developers looking for a friendly and practical approach to Design Patterns. By applying the principles outlined, you will be able to use the Observer Pattern to create loosely coupled components that are easy to modify and even easier to test.
 
 ### Outline
 
@@ -26,12 +26,10 @@ The session is geared towards developers of all levels looking for a friendlier 
 - What are design patterns? (1 minutes)
     - solution to a commonly occurring problem in software design
 - Observer Pattern (5 minutes)
-    - High-level overview
+    - High-level overview -- how, when, and why to use the pattern
     - Benefits / Tradeoffs
     - Observer Pattern in Python with classes
-      - seems a bit confusing tbh
     - Observer Pattern in Python with decorators
-      - this is how you might encounter them in the wild
     - Observer Pattern versus Pub/Sub
 - Observer Pattern in the Wild (5 minutes)
     - Standard Library: Logging, Tkinter
@@ -45,19 +43,19 @@ The session is geared towards developers of all levels looking for a friendlier 
     - Introduce problem -- set up a GitHub webhook that posts messages to Slack
     - Walkthrough initial solution: if statements checking for an event type and then performing an action
     - This gets out of hand as we add more events/actions; code is hard to read and tests become unmanageable
-    - Refactor to a decorator-based implementation from earlier
-    - Aside: basic implementation of node's `EventEmitter`
-    - Aside: `pyee` library does and can plug into async event loops (both: asyncio and twisted)
+    - Refactor to a decorator-based implementation from earlier; looks and feels Pythonic
+    - Aside: we just implemented node.js `EventEmitter` with decorators
+    - Aside: `pyee` library is a Python port of `EventEmitter`; can plug into async event loops (both: asyncio and twisted)
 - Closing (2 minutes)
     - Observer Pattern helps us design software that is loosely coupled
     - While implementations of the observer pattern are slightly different, they share the same building blocks
-    - The important thing about Design Patterns is that they provide a shared vocabulary. Our discussions focus on higher-order abstractions, not low-level details
+    - The important thing about Design Patterns is that they provide a shared vocabulary. We communicate using higher-order abstractions, not low-level details
     - When somebody mentions something is implemented with an observer pattern, you know what this means even though you do not know how it is implemented
-    - Takeaway: if you like something about a library, find out why. Digging deeper will help you learn about these patterns and improve your design of software design
+    - Takeaway: if you like something about a library, find out why. Digging deeper will help you learn about these patterns and improve your software design skills
 
 ## Notes
 
-This will be my first time giving this talk. Because of this, I have conservatively estimated my outline at 25 minutes. If there is additional time, I plan to expand upon the Aside bullet points in the case study section. Can definitely get another 5-15 minutes of material in line with the overall theme of the talk.
+This will be my first time giving this talk. Because of this, I have estimated my outline at 25 minutes. If there is additional time, I plan to expand upon the *Aside* bullet points in the case study section. Can definitely get another 5-15 minutes of material in line with the overall theme of the talk.
 
 I have experience in giving talks on applied Object-Oriented Principles. I recently gave a talk on how if statements can be refactored into polymorphic classes (PyCon 2020, PyCon Balkan 2019, PyOhio 2019). Also have given a talk on the Facade Design Pattern (PyTennessee 2020, PyTexas 2020).
 
