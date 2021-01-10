@@ -14,11 +14,11 @@ The Observer Pattern is used to create loosely coupled components that are easy 
 
 ## Description
 
-The Observer Pattern enables developers to write loosely coupled code that is easy to maintain. This pattern is widely used in the Python ecosystem: we find implementations in the standard library and in popular packages such as Django and Flask.
+Design Patterns are solutions to commonly occuring problems in Software Design. The Observer Pattern is a popular pattern that enables us to write loosely coupled code that is easy to maintain. This pattern is widely used in the Python ecosystem: we find implementations in the standard library and in packages such as Django and Flask.
 
-This talk will dive deep into the Observer Pattern. We will start with a high-level overview of how, when, and why to use the pattern. Next, we will examine various Python implementations of this pattern. Finally, we will create a decorator-based Observer to dynamically dispatch events sent from GitHub webhooks.
+This talk will dive deep into the Observer Pattern. We will start with a high-level overview of how, when, and why to use the pattern. Next, we will examine various Python implementations of this pattern. Finally, we will create a decorator-based Observer to dynamically dispatch events received from GitHub webhooks.
 
-The session is geared towards intermediate and advanced developers looking for a friendly and practical approach to Design Patterns. By applying the principles outlined, you will be able to use the Observer Pattern to create loosely coupled components that are easy to modify and even easier to test.
+This session is geared towards intermediate and advanced developers looking for a friendly and practical approach to Design Patterns. By applying the principles outlined, you will be able to use the Observer Pattern to create loosely coupled components that are easy to modify and even easier to test.
 
 ### Outline
 
