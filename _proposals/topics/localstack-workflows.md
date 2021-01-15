@@ -2,11 +2,11 @@
 
 ## Description
 
-Amazon Web Services (AWS) has over 170 managed services: from leveraging S3 as a storage bucket to developing voice-enabled applications, developers can solve complex problems with a few API calls. We pay Amazon a little more and we ship products a lot faster. It's a fair trade.
+Amazon Web Services (AWS) has over 175 managed services: from leveraging S3 as a storage bucket to developing voice-enabled applications with Alexa, developers can solve complex problems with a few API calls. You pay Amazon a little more and you ship products a lot faster.
 
-The question isn't should you use managed services, but how best to bring them into your organization's existing processes and workflows. You probably already have one, or more than one, AWS account to support different development environments. Setting up new development resources for each team/developer to test against is going to be a lot of work related to IAM roles, policies, and permissions. Also, API calls are not free; development and testing workflows that use AWS resources cost money.
+The question isn't should you use managed services, but how best to bring them into your organization's existing processes and workflows. You probably already have one, or more than one, AWS account to support different development environments. Setting up new resources for each team/developer to test against is going to be a lot of work related to IAM roles, policies, and permissions. Also, API calls are not free; development and testing workflows that use AWS resources cost money.
 
-Enter LocalStack. LocalStack is a testing framework used to develop cloud-native applications. Start a LocalStack container and start writing code against a (local?) environment that has the same functionality and APIs as AWS! This talk will discuss how to integrate LocalStack into your project by demonstrating several basic and advanced workflows. The session is geared towards intermediate and advanced developers that use AWS.
+Enter LocalStack. LocalStack is a testing framework used to develop cloud-native applications. Start a container and write code against a local environment that has the same functionality and APIs as AWS! This talk will discuss how to integrate LocalStack into your project by demonstrating several basic and advanced workflows. The session is geared towards intermediate and advanced developers that use AWS.
 
 ## Outline
 
@@ -44,6 +44,7 @@ Enter LocalStack. LocalStack is a testing framework used to develop cloud-native
 - workflow #1: website Static site s3 / Upload files
   - show Django example
   - also have flask example done
+  - the s3 protocol is used by a lot of folks so you can use localstack for DigitalOcean and (Azure?)
 
 - workflow #2: working with dynamodb
   - this is awesome, maybe we can use?
