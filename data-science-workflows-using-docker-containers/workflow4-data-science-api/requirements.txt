@@ -3,7 +3,7 @@ click==6.7
 Flask==0.12.2
 Flask-RESTful==0.3.6
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.11.3
 MarkupSafe==1.0
 numpy==1.13.1
 python-dateutil==2.6.1
