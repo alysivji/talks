@@ -1,0 +1,25 @@
+version: '3.6'
+
+# uncomment to persist data across container sessions
+# volumes:
+#   localstack-data:
+
+services:
+  localstack:
+    image: localstack/localstack:0.12.8
+    environment:
+      EDGE_PORT: 4566
+      DEFAULT_REGION: us-east-1
+      AWS_DEFAULT_REGION: us-east-1  # this environment variable is not documented anywhere, but is required to get localstack working
+      AWS_ACCESS_KEY_ID: foo
+      AWS_SECRET_ACCESS_KEY: bar
+      SERVICES: serverless
+      DATA_DIR: /tmp/localstack/data
+      INIT_SCRIPTS_PATH: /tmp/localstack/init
+      LAMBDA_EXECUTOR: local
+    ports:
+      - "4566:4566"
+    volumes:
+      - ./onstart:/tmp/localstack/init
+      # uncomment to persist data across container sessions
+      # - localstack-data:/tmp/localstack/data

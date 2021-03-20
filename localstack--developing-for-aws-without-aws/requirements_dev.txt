@@ -1,0 +1,4 @@
+-r requirements.in
+pip-tools==6.0.1
+ipython
+pdbpp
