@@ -1,5 +1,7 @@
 # LocalStack: Developing for AWS without AWS
 
+#### Table of Contents
+
 ## Talk Description
 
 Amazon Web Services (AWS) has over 175 managed services: from leveraging S3 as a storage bucket to developing voice-enabled applications with Alexa, developers can solve complex problems with a few API calls. You pay Amazon a little more and you ship products a lot faster.
@@ -11,3 +13,10 @@ Enter LocalStack. LocalStack is a testing framework used to develop cloud-native
 ## Media
 
 - [Slides]()
+
+## Resources
+
+- GitHub: [localstack/localstack](https://github.com/localstack/localstack#configurations)
+  - main localstack repo
+- GitHub: [localstack/awscli-local](https://github.com/localstack/awscli-local)
+  - does an `alias awslocal=aws --endpoint-url=http://0.0.0.0:4566`

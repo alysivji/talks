@@ -1,4 +1,4 @@
--r requirements.in
+-r requirements.txt
 pip-tools==6.0.1
 ipython
 pdbpp

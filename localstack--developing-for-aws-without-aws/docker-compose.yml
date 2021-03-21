@@ -11,12 +11,9 @@ services:
       EDGE_PORT: 4566
       DEFAULT_REGION: us-east-1
       AWS_DEFAULT_REGION: us-east-1  # this environment variable is not documented anywhere, but is required to get localstack working
-      AWS_ACCESS_KEY_ID: foo
-      AWS_SECRET_ACCESS_KEY: bar
       SERVICES: serverless
       DATA_DIR: /tmp/localstack/data
       INIT_SCRIPTS_PATH: /tmp/localstack/init
-      LAMBDA_EXECUTOR: local
     ports:
       - "4566:4566"
     volumes:

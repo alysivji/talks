@@ -4,16 +4,25 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-boto3==1.17.33
+awscli-local==0.14
     # via -r requirements.in
+boto3==1.17.33
+    # via
+    #   -r requirements.in
+    #   localstack-client
 botocore==1.20.33
     # via
     #   boto3
+    #   pynamodb
     #   s3transfer
 jmespath==0.10.0
     # via
     #   boto3
     #   botocore
+localstack-client==1.14
+    # via awscli-local
+pynamodb==5.0.3
+    # via -r requirements.in
 python-dateutil==2.8.1
     # via botocore
 s3transfer==0.3.6
