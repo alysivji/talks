@@ -5,6 +5,7 @@
 <!-- TOC -->
 
 - [LocalStack Demo](#localstack-demo)
+- [Docker-Compose Walk-thru](#docker-compose-walk-thru)
 - [Workflow #1: Interacting with S3](#workflow-1-interacting-with-s3)
 - [Workflow #2: Working with DynamoDB](#workflow-2-working-with-dynamodb)
 - [Workflow #3: Queueing with SQS](#workflow-3-queueing-with-sqs)
@@ -65,6 +66,22 @@ cat new_greeting.txt
 ## Workflow #1: Interacting with S3
 
 ```bash
+# lets see what we have in s3
+awslocal s3 ls
+awslocal s3 ls example-bucket
+
+# we'll start the python REPL
+ipython
+%run main.py
+
+# create a file in an editor and save it
+
+# lets use the function we looked at to upload this file
+upload_file_to_s3("file_to_upload.txt", bucket="example-bucket", use_localstack=True)
+
+# exit terminal
+# lets see what we have in s3
+awslocal s3 ls example-bucket
 ```
 
 ## Workflow #2: Working with DynamoDB
