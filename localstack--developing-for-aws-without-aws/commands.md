@@ -32,6 +32,7 @@ aws --endpoint-url http://0.0.0.0:4566 s3 mb s3://demo-bucket
 aws --endpoint-url http://0.0.0.0:4566 s3 ls
 
 # Introduce awslocal
+(need commands)
 
 # Now we’ll create a file
 echo "Hello Python Web Conference" >> greeting.txt
@@ -51,6 +52,14 @@ cat new_greeting.txt
 # And that’s s3, we’re just scratching the surface of what you can do with localstack.
 
 # Close down localstack by stopping the container
+```
+
+## Docker-Compose Walk-thru
+
+```bash
+# show docker compose file and walk through how it's set up
+
+# show resources
 ```
 
 ## Workflow #1: Interacting with S3

@@ -1,3 +1,4 @@
 awscli-local==0.14
 boto3==1.17.33
 pynamodb==5.0.3
+pytest==pi6.2.2
