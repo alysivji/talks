@@ -21,7 +21,7 @@ def upload_file_to_s3(file_name, bucket, object_name=None, use_localstack=False)
         object_name = file_name
 
     try:
-        response = s3_client.upload_file(file_name, bucket, object_name)
+        s3_client.upload_file(file_name, bucket, object_name)
     except ClientError as e:
         logging.error(e)
         return False
