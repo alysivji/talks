@@ -24,13 +24,13 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Mar 20-ish|Developing for AWS without AWS|Python Web Conf|
+|Mar 26|Developing for AWS without AWS|[Python Web Conf](https://2021.pythonwebconf.com/presentations/localstack-developing-for-aws-without-aws)|[Slides]
 
 ### 2020
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Oct 24|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-pattern)|PyTexas|[Slides](http://bit.ly/facade-pattern) / [Video](https://www.youtube.com/watch?v=zNbEdj3aGx0)|
+|Oct 24|[Everyday Design Patterns: Facade Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--facade-pattern)|[PyTexas](https://www.pytexas.org/schedule/)|[Slides](http://bit.ly/facade-pattern) / [Video](https://www.youtube.com/watch?v=zNbEdj3aGx0)|
 |Sep 10|[Fun with Finite State Machines](https://github.com/alysivji/talks/tree/master/lightning-talks/finite-state-machine)|ChiPy|[Slides](http://bit.ly/finite-state-machine) / [Video](https://youtu.be/OBGUlbcHi2k?t=3616)|
 |Aug 6|Busy Beaver: Chicago Python's Community Engagement Slack bot|[PyCon Africa](https://africa.pycon.org/speakers/aly-sivji#talk)|[Slides](http://bit.ly/busy-beaver-bot) / [Video](https://www.youtube.com/watch?v=Mg1l_QFkx1I)|
 |Jul 25|[Object-Oriented Python with `functools.partial`](https://github.com/alysivji/talks/tree/master/lightning-talks/object-oriented-python-with-functools-partial)|[PyOhio](https://www.pyohio.org/2020/events/talks/object-oriented-python-with-functools-partial)|[Slides](https://bit.ly/oop-with-functools-partial) / [Video](https://www.youtube.com/watch?v=pxlVTQ_pLNE)|

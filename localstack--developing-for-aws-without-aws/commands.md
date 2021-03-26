@@ -33,6 +33,7 @@ aws --endpoint-url http://0.0.0.0:4566 s3 mb s3://demo-bucket
 aws --endpoint-url http://0.0.0.0:4566 s3 ls
 
 # Introduce awslocal
+# utility created by localstack to save us some time
 (need commands)
 
 # Now we’ll create a file
@@ -61,6 +62,9 @@ cat new_greeting.txt
 # show docker compose file and walk through how it's set up
 
 # show resources
+
+# Makefile
+make up
 ```
 
 ## Workflow #1: Interacting with S3

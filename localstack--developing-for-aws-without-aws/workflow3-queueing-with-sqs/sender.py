@@ -6,6 +6,7 @@ from botocore.exceptions import ClientError
 
 QUEUE_URL = "http://localhost:4566/000000000000/inbound-queue"
 
+
 def send_message_to_queue(message, use_localstack=False):
     kwargs = {}
     if use_localstack:
@@ -14,7 +15,7 @@ def send_message_to_queue(message, use_localstack=False):
     queue = sqs.Queue(QUEUE_URL)
 
     try:
-        result = queue.send_message(MessageBody=json.dumps(message))
+        queue.send_message(MessageBody=json.dumps(message))
     except ClientError as e:
         logging.error(e)
         return False
