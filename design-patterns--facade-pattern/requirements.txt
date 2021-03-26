@@ -4,34 +4,78 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-attrs==19.3.0             # via pytest
-certifi==2019.11.28       # via requests
-chardet==3.0.4            # via requests
-coverage==5.0.3           # via pytest-cov
-deprecated==1.2.7         # via pygithub
-graphql-core==3.0.2       # via sgqlc
-idna==2.8                 # via requests, yarl
-importlib-metadata==1.4.0  # via pluggy, pytest
-more-itertools==8.1.0     # via pytest
-multidict==4.7.4          # via yarl
-packaging==20.1           # via pytest
-pluggy==0.13.1            # via pytest
-py==1.8.1                 # via pytest
+attrs==19.3.0
+    # via pytest
+certifi==2019.11.28
+    # via requests
+chardet==3.0.4
+    # via requests
+coverage==5.0.3
+    # via pytest-cov
+deprecated==1.2.7
+    # via pygithub
+graphql-core==3.0.2
+    # via sgqlc
+idna==2.8
+    # via
+    #   requests
+    #   yarl
+more-itertools==8.1.0
+    # via pytest
+multidict==4.7.4
+    # via yarl
+packaging==20.1
+    # via pytest
+pluggy==0.13.1
+    # via pytest
+py==1.8.1
+    # via pytest
 pygithub==1.45
-pyjwt==1.7.1              # via pygithub
-pyparsing==2.4.6          # via packaging
+    # via -r requirements.in
+pyjwt==1.7.1
+    # via pygithub
+pyparsing==2.4.6
+    # via packaging
 pytest-cov==2.8.1
+    # via -r requirements.in
 pytest-mock==2.0.0
+    # via -r requirements.in
 pytest-vcr==1.0.2
+    # via -r requirements.in
 pytest==5.3.4
-pyyaml==5.3               # via vcrpy
+    # via
+    #   -r requirements.in
+    #   pytest-cov
+    #   pytest-mock
+    #   pytest-vcr
+pyyaml==5.4
+    # via vcrpy
 requests==2.22.0
+    # via
+    #   -r requirements.in
+    #   pygithub
+    #   responses
 responses==0.10.9
+    # via -r requirements.in
 sgqlc==10.1
-six==1.14.0               # via packaging, pygithub, responses, vcrpy
-urllib3==1.25.8           # via requests
+    # via -r requirements.in
+six==1.14.0
+    # via
+    #   packaging
+    #   pygithub
+    #   responses
+    #   vcrpy
+urllib3==1.25.8
+    # via requests
 vcrpy==4.0.2
-wcwidth==0.1.8            # via pytest
-wrapt==1.11.2             # via deprecated, vcrpy
-yarl==1.4.2               # via vcrpy
-zipp==2.1.0               # via importlib-metadata
+    # via
+    #   -r requirements.in
+    #   pytest-vcr
+wcwidth==0.1.8
+    # via pytest
+wrapt==1.11.2
+    # via
+    #   deprecated
+    #   vcrpy
+yarl==1.4.2
+    # via vcrpy
