@@ -1,11 +1,17 @@
+import os
+
 from pynamodb.models import Model
 from pynamodb.attributes import UnicodeAttribute
 
+TABLE_NAME = os.getenv("TABLE_NAME")
+LOCALSTACK_ENDPOINT = os.getenv("LOCALSTACK_ENDPOINT", None)
 
 class UserModel(Model):
     class Meta:
-        host = "http://0.0.0.0:4566"
-        table_name = "User"
+        host = TABLE_NAME
+
+    if LOCALSTACK_ENDPOINT:
+        setattr(Meta, "host", LOCALSTACK_ENDPOINT)
 
     email = UnicodeAttribute(hash_key=True)
 

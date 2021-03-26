@@ -86,16 +86,34 @@ awslocal s3 ls example-bucket
 
 ## Workflow #2: Working with DynamoDB
 
-- pynamodb
-- show using aws viewer and other viewer
-
 ```bash
-# show things
+# create object
+ipython
+%run models.py
+user = UserModel(email="alysivji@gmail.com", name_given="Aly", name_family="Sivji")
+user.save()
+
+# show item in DynamoDB
+# open new terminal
+npm  # since I load npm lazily
+DYNAMO_ENDPOINT=http://0.0.0.0:4566 dynamodb-admin
+
+user = UserModel(email="alysivji@gmail.com", name_given="Updated", name_family="Info")
+user.save()
 ```
 
 ## Workflow #3: Queueing with SQS
 
-- worker prints out what's up
-
 ```bash
+# get queue URL
+awslocal sqs list-queues
+
+# create object
+ipython
+%run sender.py
+message = {"event_type": "ping", "event_data": "test"}
+send_message_to_queue(message, use_localstack=True)
+
+# view message in console
+awslocal sqs receive-message --queue-url http://localhost:4566/000000000000/inbound-queue
 ```
