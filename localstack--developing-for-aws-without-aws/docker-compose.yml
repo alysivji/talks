@@ -1,0 +1,25 @@
+version: '3.6'
+
+# uncomment to persist data across container sessions
+# volumes:
+#   localstack-data:
+
+services:
+  localstack:
+    image: localstack/localstack:0.12.8
+    environment:
+      EDGE_PORT: 4566
+      DEFAULT_REGION: us-east-1
+      SERVICES: serverless,sqs
+      DATA_DIR: /tmp/localstack/data
+      INIT_SCRIPTS_PATH: /tmp/localstack/init
+      # variables to let us run boto3 inside container
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ACCESS_KEY_ID: foo
+      AWS_SECRET_ACCESS_KEY: bar
+    ports:
+      - "4566:4566"
+    volumes:
+      - ./onstart:/tmp/localstack/init
+      # uncomment to persist data across container sessions
+      # - localstack-data:/tmp/localstack/data

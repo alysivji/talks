@@ -12,18 +12,10 @@ Enter LocalStack. LocalStack is a testing framework used to develop cloud-native
 
 - introduction
   - why AWS managed services are great
-  - what sucks about develping against managed services
-    - development tools aren't as mature as server-based counterparts
-      - for serverless, it's one of the reasons why Zappa is popular, even though it has so many limitations
-    - testing and debugging is hard since it's difficult to replicate a production environment
-    - deployment is unfamiliar
-      - nothing we can do about this, but learning about localstack will increase your confidence in your cloudformation (maybe don't say this)
-    - it becomes expensive, each developer is running resources on AWS and that costs money
-    - what else?
 
 - introducing localstack
   - aws in a container
-  - can replicate lots of servers, paid version has more... if you really need them
+  - can replicate lots of services, paid version has more... if you really need them
   - benefits of localstack: https://localstack.cloud/
     - language agnostic
       - other solutions like fake_sqs and moto are for ruby and python respectively
@@ -50,7 +42,9 @@ Enter LocalStack. LocalStack is a testing framework used to develop cloud-native
   - this is awesome, maybe we can use?
 
 - workflow #3: working with SQS
-  - why set up redis when you can set up SQS and some
+  - we can use task queues to run tasks asynchronously
+  - why set up redis when you can set up SQS
+  - celery has support
 
 - workflow #4: deploy terraform and cloudformation
   - everything we've done until now, we've done in the console... this is not the best way
@@ -61,10 +55,23 @@ Enter LocalStack. LocalStack is a testing framework used to develop cloud-native
   - continued joke: using cloud native technologies... get all the buzzwords in there
   - image resizer: save something to a bucket, goes thru my photos and rotates them
 
+- i'm not here to sell on on the AWS serverless stack, my goal is to show
+
 - Tips and Tricks
   - setting up in CI is pretty straight forward
+    - included a GitHub Action; can be used as a template to create others
   - zappa is popular in the Python space since people can leverage web technologies they already know
     - this does make sense, but you also know Python
     - writing a lambda function is a lot easier than writing a web application
     - make sure you think of the use case before you jump into a full framework like Zappa, you can maybe get away with SAM / Serverless + LocalStack
     - have a comparison blog post (also examine cold start time -- zappa is bad because Django is bad. Python itself is great!)
+  - commandeer?
+
+  - what sucks about develping against managed services
+    - development tools aren't as mature as server-based counterparts
+      - for serverless, it's one of the reasons why Zappa is popular, even though it has so many limitations
+    - testing and debugging is hard since it's difficult to replicate a production environment
+    - deployment is unfamiliar
+      - nothing we can do about this, but learning about localstack will increase your confidence in your cloudformation (maybe don't say this)
+    - it becomes expensive, each developer is running resources on AWS and that costs money
+    - what else?
