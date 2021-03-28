@@ -24,7 +24,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Mar 26|Developing for AWS without AWS|[Python Web Conf](https://2021.pythonwebconf.com/presentations/localstack-developing-for-aws-without-aws)|[Slides](http://bit.ly/localstack-talk)
+|Mar 26|[LocalStack: Developing for AWS without AWS](localstack/)|[Python Web Conf](https://2021.pythonwebconf.com/presentations/localstack-developing-for-aws-without-aws)|[Slides](http://bit.ly/localstack-talk)
 
 ### 2020
 

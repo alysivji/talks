@@ -2,6 +2,14 @@
 
 #### Table of Contents
 
+<!-- TOC -->
+
+- [Talk Description](#talk-description)
+- [Media](#media)
+- [Resources](#resources)
+
+<!-- /TOC -->
+
 ## Talk Description
 
 Amazon Web Services (AWS) has over 175 managed services: from leveraging S3 as a storage bucket to developing voice-enabled applications with Alexa, developers can solve complex problems with a few API calls. You pay Amazon a little more and you ship products a lot faster.
@@ -12,7 +20,8 @@ Enter LocalStack. LocalStack is a testing framework used to develop cloud-native
 
 ## Media
 
-- [Slides]()
+- [Slides](http://bit.ly/localstack-talk)
+- Video -- link will be updated when this talk is posted
 
 ## Resources
 
