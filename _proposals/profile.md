@@ -1,5 +1,9 @@
 # Biography
 
+## 2021
+
+Aly Sivji is a Canadian ex-pat living in Chicago. By day, he works as a Senior Backend Engineer at Noteworth building a platform that enables healthcare organizations to improve digital care delivery. By night, he co-organizes the Chicago Python Users Group (ChiPy). Aly is an active participant in the ChiPy Mentorship Program and he loves helping intermediate developers become experts. Outside of Python, Aly enjoys cycling, reading, and rewatching old TV shows.
+
 ## 2020
 
 Aly Sivji is a Canadian expat living in Chicago. By day, he builds backend systems at Numerator. By night, he is a co-organizer of the Chicago Python Users Group (ChiPy). Aly is an active participant in the ChiPy Mentorship Program and he loves helping intermediate developers become experts. Outside of Python, Aly enjoys cycling, reading, and rewatching old TV shows.
