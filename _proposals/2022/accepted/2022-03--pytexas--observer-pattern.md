@@ -57,10 +57,14 @@ This session is geared towards intermediate and advanced developers looking for 
 
 This will be my first time giving this talk. Because of this, I have estimated my outline at 25 minutes. If there is additional time, I plan to expand upon the *Aside* bullet points in the case study section.
 
-I have experience in giving talks on applied Object-Oriented Principles. I have previously given a talk on how if statements can be refactored into polymorphic classes (PyCon 2020, PyCon Balkan 2019, PyOhio 2019). Also have given a talk on the Facade Design Pattern (PyTennessee 2020, PyTexas 2020).
+I have experience in giving talks on applied Object-Oriented Principles. I recently gave a talk on how if statements can be refactored into polymorphic classes (PyCon 2020, PyCon Balkan 2019, PyOhio 2019). Also have given a talk on the Facade Design Pattern (PyTennessee 2020, PyTexas 2020).
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyCon Africa, EuroPython, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ## Tags
 
 Python, object oriented programming, oop, software design, refactoring, software architecture, design patterns, patterns
+
+## Profile
+
+Aly Sivji is a Canadian ex-pat living in Chicago. By day, he works as a Team Lead at Narrative Science building a platform that generates narrative text using client data. By night, he co-organizes the Chicago Python Users Group (ChiPy). Aly is an active participant in the ChiPy Mentorship Program and he loves helping intermediate developers become experts. Outside of Python, Aly enjoys cycling, reading, and rewatching old TV shows.

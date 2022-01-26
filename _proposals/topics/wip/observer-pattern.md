@@ -45,7 +45,7 @@
     - asyncio, twisted
 
 - formal definition
-  - Pub/Sub
+  - diff b/w Pub/Sub
   - honestly even after learning it, i didn't see it until it all clicked
   - don't have to implement design patterns exactly how they are stated
     - the point is to adapt them to fit your code
@@ -55,14 +55,6 @@
   - digging deeper and learning about these patterns will improve your design
 
 ## Rough Notes
-
-### Todo
-
-- [ ] write blog post talking about how awesome it is in JS
-  - Python implementation from scratch; reference pyee
-- use pyee in busy beaver
-  - [ ] blog post about how PyEE will make asyncio useable
-  - use with FastAPI
 
 ### Resources
 

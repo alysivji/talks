@@ -20,7 +20,13 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 ⚡ indicates lightning talk
 
-### 2121
+### 2022
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :--- | :---- | :------- | :--- |
+|Mar 26-27|Everyday Design Patterns: Observer Pattern|[PyTexas](https://www.pytexas.org)|
+
+### 2021
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
