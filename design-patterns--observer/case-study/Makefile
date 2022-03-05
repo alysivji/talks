@@ -7,3 +7,6 @@ requirements:
 
 install:
 	pip install -r requirements.txt
+
+simple-solution:
+	FLASK_APP=a_simple_solution flask run
