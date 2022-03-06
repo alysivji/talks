@@ -9,6 +9,8 @@ This folder contains code and tests used to demonstrate best practices with the 
 - [Project Introduction](#project-introduction)
 - [Implementations](#implementations)
   - [MVP](#mvp)
+  - [Dictionary Dispatch](#dictionary-dispatch)
+  - [Event Emitter](#event-emitter)
 - [Setup Development Environment](#setup-development-environment)
   - [Install Dependencies](#install-dependencies)
   - [Setting up bot in Slack Workspace](#setting-up-bot-in-slack-workspace)
@@ -30,7 +32,27 @@ There are various implementations of Slackbot to
 
 ### MVP
 
-Use conditional branches to
+Handlers for each of the commands are inlined within conditional blocks, one command per block. This is how I would initially solve the problem -- it's a solution that works and keeps things simple.
+
+The issue with this approach is that our code is tightly coupled, i.e. business logic and web request handling logic are intertwined. This could become hard to manage as:
+- we increase the number of commands we have to handle
+- the business logic inside our command handler grows complex
+
+### Dictionary Dispatch
+
+Each command handler has it's own function. We create a dictionary with the key being the command and the value being a reference to the command handler function.
+
+With this approach, our components are loosely coupled. We also removed the conditional, which is always a good thing.
+
+We are on the right track, but there is a better way of registering handler functions with commands (ala Flask URL routing).
+
+### Event Emitter
+
+Created an abstraction, `EventEmitter`, that lets us register commands with different function handlers using a decorator. This design results in loosely coupled components.
+
+In our use case, there is a one-to-one relationship between command (state) and function handler (observers). This has been taken into account in the `EventEmitter` class.
+
+If we need to to have a one-to-many relationship between state and observers, we can use [pyee](https://pyee.readthedocs.io/en/latest/).
 
 ## Setup Development Environment
 
@@ -69,7 +91,7 @@ This will be the application we use for testing purposes.
 1. Goto https://api.slack.com/apps > Select App
 1. In app dashboard, click `Slack Commands` > 'Create New Command`
     - Command: `/observer`
-    - Request URL: `URL exposed via ngrok`
+    - Request URL: `URL exposed via ngrok` (will be different every time you start a ngrok process)
     - Short Description: `Observer Pattern Demo App`
 1. Click `Save`
 1. In app dashboard, click `Basic Information` > `Install to Workspace` > `Allow`

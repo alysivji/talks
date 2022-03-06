@@ -2,11 +2,11 @@
 
 ## Talk Description
 
-Developers spend lots of time writing code to integrate third-party packages and APIs into our project. Directly adding dependencies into business logic couples our code to something we do not control. This makes code hard to modify and even harder to test. Changes made to upstream packages require us to update integration code across the project.
+Design Patterns are solutions to commonly occurring problems in Software Design. The Observer Pattern is a popular pattern that enables us to design event-driven systems using loosely coupled components. This pattern is widely used in the Python ecosystem: we find implementations in the standard library and in packages such as Django and Flask.
 
-This talk demonstrates HOWTO use Object-Oriented programming principles, specifically abstraction and encapsulation, to hide complexity and isolate the impact of changes. By using an API version upgrade as our guiding example, we will: walk through the initial implementation, discuss its limitations, and show how the Facade Pattern improves software design.
+This talk will dive deep into the Observer Pattern. We will start with a high-level overview of how, when, and why to use the pattern. Next, we will examine various Python implementations of this pattern. Finally, we will create a decorator-based Observer to dynamically dispatch events received from GitHub webhooks.
 
-The session is geared towards developers of all levels looking for a friendlier approach to Design Patterns. By applying the principles outlined, you will be able to use the Facade pattern to write robust code that is easy to maintain.
+This session is geared towards intermediate and advanced developers looking for a friendly and practical approach to Design Patterns. By applying the principles outlined, you will be able to use the Observer Pattern to create loosely coupled components that are easy to modify and even easier to test.
 
 ## Media
 

@@ -3,7 +3,8 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route("/", methods=['POST'])
+
+@app.route("/", methods=["POST"])
 def handle_slash_command():
     command_text = request.form["text"]
     subcommand = command_text.split(" ")[0].lower()
