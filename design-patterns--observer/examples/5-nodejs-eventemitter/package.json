@@ -1,0 +1,11 @@
+{
+  "name": "5-nodejs-eventemitter",
+  "version": "1.0.0",
+  "description": "Example showing how to use node's EventEmitter",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Aly Sivji",
+  "license": "ISC"
+}
