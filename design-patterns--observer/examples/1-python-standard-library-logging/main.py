@@ -34,11 +34,11 @@ LOGGING_CONFIG = {
     },
 }
 
-# load configuration and set up logger
+# load configuration and fetch logger
 dictConfig(LOGGING_CONFIG)
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
 
-# log
+# application logs
 logger.debug('debug message')
 logger.info('info message')
 logger.warning('warn message')
