@@ -24,13 +24,14 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Mar 26-27|Everyday Design Patterns: Observer Pattern|[PyTexas](https://www.pytexas.org)|
+|Mar 26|Everyday Design Patterns: Observer Pattern|[PyTexas](https://www.pytexas.org)|
+|Mar 10|[Everyday Design Patterns: Observer Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--observer-pattern)|[ChiPy](https://www.chipy.org)|[Slides](http://bit.ly/observer-pattern)
 
 ### 2021
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Mar 26|[LocalStack: Developing for AWS without AWS](localstack/)|[Python Web Conf](https://2021.pythonwebconf.com/presentations/localstack-developing-for-aws-without-aws)|[Slides](http://bit.ly/localstack-talk)
+|Mar 26|[LocalStack: Developing for AWS without AWS](localstack/)|[Python Web Conf](https://2021.pythonwebconf.com/presentations/localstack-developing-for-aws-without-aws)|[Slides](http://bit.ly/localstack-talk) / [Video](https://www.youtube.com/watch?v=qWIqodpYxSA)
 
 ### 2020
 
