@@ -24,8 +24,8 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Mar 26|Everyday Design Patterns: Observer Pattern|[PyTexas](https://www.pytexas.org)|
-|Mar 10|[Everyday Design Patterns: Observer Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--observer-pattern)|[ChiPy](https://www.chipy.org)|[Slides](http://bit.ly/observer-pattern)
+|Mar 26|[Everyday Design Patterns: Observer Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--observer-pattern)|[PyTexas](https://www.pytexas.org)|[Slides](https://bit.ly/everyday-patterns-observer)
+|Mar 10|[Everyday Design Patterns: Observer Pattern](https://github.com/alysivji/talks/tree/master/design-patterns--observer-pattern)|[ChiPy](https://www.chipy.org)|[Slides](https://bit.ly/everyday-patterns-observer) / [Video](https://youtu.be/d5iZONHGQT0?t=484)
 
 ### 2021
 
