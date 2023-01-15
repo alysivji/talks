@@ -10,13 +10,13 @@ Intermediate
 
 ## Elevator Pitch
 
-The Observer Pattern enables us to design event-driven systems using loosely coupled components. In this talk, we will learn how, when, and why to use this pattern; we will explore how popular PyPI packages use the pattern; and, we will design a decorator-based Observer to process GitHub events.
+The Observer Pattern enables us to design event-driven systems using loosely coupled components. In this talk, we will learn how, when, and why to use this pattern; we will explore how popular PyPI packages use the pattern; and, we will design a decorator-based Observer to process Slack events.
 
 ## Description
 
 Design Patterns are solutions to commonly occurring problems in Software Design. The Observer Pattern is a popular pattern that enables us to design event-driven systems using loosely coupled components. This pattern is widely used in the Python ecosystem: we find implementations in the standard library and in packages such as Django and Flask.
 
-This talk will dive deep into the Observer Pattern. We will start with a high-level overview of how, when, and why to use the pattern. Next, we will examine various Python implementations of this pattern. Finally, we will create a decorator-based Observer to dynamically dispatch events received from GitHub webhooks.
+This talk will dive deep into the Observer Pattern. We will start with a high-level overview of how, when, and why to use the pattern. Next, we will examine various Python implementations of this pattern. Finally, we will create a decorator-based Observer to dynamically dispatch events received from Slack webhooks.
 
 This session is geared towards intermediate and advanced developers looking for a friendly and practical approach to Design Patterns. By applying the principles outlined, you will be able to use the Observer Pattern to create loosely coupled components that are easy to modify and even easier to test.
 
@@ -39,8 +39,8 @@ This session is geared towards intermediate and advanced developers looking for 
     - Front-end DOM programming
     - Note that these implementations are slightly different
     - Design Patterns are not cookiecutter solutions, they should be adapted to solve the specific problem you have
-- Case Study: GitHub Webhook (10 minutes)
-    - Introduce problem -- set up a GitHub webhook that posts messages to Slack
+- Case Study: Slack Webhook (10 minutes)
+    - Introduce problem -- set up a Slackbot that sends events to a webhook
     - Walkthrough initial solution: if statements checking for an event type and then performing an action
     - This gets out of hand as we add more events/actions; code is hard to read and tests become unmanageable
     - Refactor to a decorator-based implementation from earlier; looks and feels Pythonic
