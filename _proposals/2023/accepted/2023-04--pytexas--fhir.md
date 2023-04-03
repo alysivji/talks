@@ -34,6 +34,6 @@ C. Q&A
 
 On top of being a regular speaker in the Chicago tech community, I have also spoken at PyCon Africa, EuroPython, and led a 3-hour tutorial at PyCon US. A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
-## Profilei
+## Profile
 
 Aly Sivji is a Canadian ex-pat living in Chicago. By day, he works as a Team Lead at Jasper Health building a digital health platform to improve the management and delivery of cancer care. By night, he co-organizes the Chicago Python Users Group (ChiPy). Aly is an active participant in the ChiPy Mentorship Program and he loves helping intermediate developers become experts. Outside of Python, Aly enjoys cycling, reading, and rewatching old TV shows.

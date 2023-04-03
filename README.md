@@ -31,7 +31,7 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 
 | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :---- | :------- | :--- |
-|Apr 2|Unlocking the Power of Health Data: An Introduction to Python and FHIR|[PyTexas](https://www.pytexas.org)|[Slides]()
+|Apr 2|Unlocking the Power of Health Data: An Introduction to Python and FHIR|[PyTexas](https://www.pytexas.org)|[Slides](https://bit.ly/python-on-fhir)
 
 ### 2022
 
