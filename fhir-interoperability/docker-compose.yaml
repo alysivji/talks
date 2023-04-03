@@ -1,0 +1,28 @@
+version: '3.9'
+
+volumes:
+  fhir-store-data:
+
+services:
+  spark-fhir-store:
+    # uncomment for x86 architecture
+    # image: sparkfhir/spark:r4-latest
+    # uncomment for arm architecture
+    image: alysivji0jasper/sparkfhir-arm:r4-latest
+    environment:
+      - StoreSettings__ConnectionString=mongodb://root:CosmicTopSecret@mongodb:27017/spark?authSource=admin
+      - SparkSettings__Endpoint=http://0.0.0.0:5560/fhir
+    ports:
+      - "5560:80"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: CosmicTopSecret
+    ports:
+      - "17017:27017"
+    # volumes:
+    # uncomment to persist data
+    #   - fhir-store-data:/data/db

@@ -6,6 +6,13 @@ Repo for all my talks (slides and code)
 
 - [Description](#description)
 - [Speaking Engagements](#speaking-engagements)
+  - [2023](#2023)
+  - [2022](#2022)
+  - [2021](#2021)
+  - [2020](#2020)
+  - [2019](#2019)
+  - [2018](#2018)
+  - [2017](#2017)
 
 <!-- /TOC -->
 
@@ -19,6 +26,12 @@ A selection of previous talks can be viewed at https://bit.ly/siv-talks-playlist
 ## Speaking Engagements
 
 ⚡ indicates lightning talk
+
+### 2023
+
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic | Location | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :--- | :---- | :------- | :--- |
+|Apr 2|Unlocking the Power of Health Data: An Introduction to Python and FHIR|[PyTexas](https://www.pytexas.org)|[Slides]()
 
 ### 2022
 
